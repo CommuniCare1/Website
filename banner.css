@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background: #CAE4C5;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+    font-variation-settings:"wdth" 100;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50px;
+    width: 160px;
+    color: #1C3312;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    }
+
+/*Header/Navigation Bar Starts*/ /*ALMOST DONE JUST NEED MEDIA!!*/
+header {
+    position: fixed;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:110px;
+    top:0px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    text-align: center;
+    z-index:100;}
+header img {
+    position: relative;
+    left:-550px;}
+header nav {
+    position:relative;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+}
+header nav a{
+    font-size: 24px;
+    color: #1C3312;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 6.5rem;
+    text-align: left;
+    bottom: 40px;
+    position:relative;
+
+}
+
+/*
+header nav a {
+    color: rgba(28, 51, 18, 1);
+    font-size: 24px;
+    height:33px;
+    font-weight: lighter;
+    margin: 0 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: -50px;
+    left: -80px;}
+header nav a:h cvmover {opacity:0.25;
+    transition: all 0.3s ease;}
+*/
+header button {position:relative;
+    width:200px;
+    top: -120px;
+    left: 1150px;
+    font-size: 18px;
+    border: 2px solid transparent;}
+header button:hover {background-color:inherit;
+    border: 1px solid rgba(28, 51, 18, 1);}
+header button:active {animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    animation-name: dissolve;}
+.icons{
+    font-size: 2.8rem;
+    color: #1C3312;
+    cursor: pointer;
+    position: relative;
+    top: -120px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 1.3rem 5%;
+    }
+
+    header img {
+        position: relative;
+        left: -280px;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        margin-bottom: 10px;
+        right: -70px;
+    }
+
+    header nav a {
+        font-size: 20px;
+        margin-left: 1.5rem;
+    } 
+    
+    header button {
+        position: relative;
+        left: 300px;
+        margin: 10px 430px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    header img {
+        left: 0;
+    }
+
+    header nav a {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    header button {
+        width: 180px;
+        font-size: 16px;
+        margin: 10px 320px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    header img {
+        left: 0;
+        margin-bottom: 10px;
+    }
+
+    header nav a {
+        font-size: 16px;
+        margin: 5px;
+        top: 0;
+        left: 0;
+    }
+
+    header button {
+        width: 160px;
+        font-size: 14px;
+        margin: 10px 180px;
+    }
+}
+/* Header/Navigation Bar Ends */

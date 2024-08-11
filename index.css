@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background: #CAE4C5;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+    font-variation-settings:"wdth" 100;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50px;
+    width: 160px;
+    color: #1C3312;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+/*Home Starts*/
+.RightHealthcare, .appstuff, .aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height:751px;
+    margin-top:-30px;
+    z-index:1;
+}
+.intro, .RightHealthcare {
+    background-color: rgba(235, 250, 231, 1);
+}
+
+.RightHealthcare h1 {
+    font-size: 70px;
+    transform:scale(0.85);
+    font-weight: 800;
+    line-height: 95.33px;
+    width:70%;
+    color: rgba(28, 51, 18, 1);
+    text-align: center;
+    margin-top:5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.RightHealthcare p {
+    color: rgba(0, 0, 0, 1);
+    transform:scale(0.75);
+    font-size: 32px;
+    line-height: 44.8px;
+    width:45%;
+    margin-top:0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.appstuff {
+    height:592px;
+    margin-top:0px;
+}
+.appstuff h3 {
+    color: rgba(12, 74, 127, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.37px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.appstuff p {
+    color: rgba(0, 0, 0, 1);
+    position:relative;
+    font-size: 30px;
+    line-height: 0px;
+    margin-top:-10px;
+    left:-90px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.appstuff button {
+    position:relative;
+    font-size:18px;
+    border-width: thick;
+    border: 2px solid rgba(0, 0, 0, 1);
+    background-color:white;
+    color:rgba(0, 0, 0, 1);
+    top:-70px;
+    left:240px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.appstuff button:hover {
+    background-color:rgba(0, 0, 0, 0.10);
+}
+.appstuff button:active {
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    animation-name: dissolve;
+}
+
+.appstuff a {
+    position:relative;
+    display:inline-block;
+}
+.appstuff img {
+    position:relative;
+    top:-80px;
+    display:inline-block;
+}
+
+.aboutus, .aboutus button {
+    background-color: rgba(49, 90, 32, 1);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    position:relative;
+    color:white;
+}
+.aboutus {
+    height:592px;
+}
+.aboutus h2 {
+    position:relative;
+    z-index:20;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87.16px;
+    left:-400px;
+    top:100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.aboutus p {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: left;
+    left:-280px;;
+    width:40%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.aboutus button {
+    position:relative;
+    border: 2px solid white;
+    font-size:35px;
+    transform:scale(1.75);
+    top:-320px;
+    left:270px;
+}
+.aboutus button:hover {
+    background-color:rgba(0, 0, 0, 0.10);
+    color:rgba(49, 90, 32, 1);
+    background-color: white;
+}
+.aboutus button:active {
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    animation-name: dissolve;
+}
+/*Home Ends*/
