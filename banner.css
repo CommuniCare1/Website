@@ -50,7 +50,7 @@ header {
     z-index:100;}
 header img {
     position: relative;
-    left:-550px;}
+    left:-525px;}
 header nav {
     position:relative;
     text-align: center;
@@ -85,12 +85,14 @@ header nav a {
 header nav a:h cvmover {opacity:0.25;
     transition: all 0.3s ease;}
 */
+
 header button {position:relative;
-    width:200px;
-    top: -120px;
-    left: 1150px;
+    width: 153.99px;
+    top: -100px;
+    left: 1160px;
     font-size: 18px;
     border: 2px solid transparent;}
+
 header button:hover {background-color:inherit;
     border: 1px solid rgba(28, 51, 18, 1);}
 header button:active {animation-timing-function: ease-out;
@@ -101,7 +103,8 @@ header button:active {animation-timing-function: ease-out;
     color: #1C3312;
     cursor: pointer;
     position: relative;
-    top: -120px;
+    top: 0px;
+    display: none;
 }
 
 /* Media Queries */
@@ -112,7 +115,7 @@ header button:active {animation-timing-function: ease-out;
 
     header img {
         position: relative;
-        left: -280px;
+        left: -260px;
         margin-bottom: 10px;
     }
 
