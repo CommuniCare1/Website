@@ -65,7 +65,7 @@ footer nav a {color: rgba(28, 51, 18, 1);
     display: block;
     text-decoration: none;
     position: relative;
-    top:-140px;
+    top:-190px;
     left: 70px;}
 footer nav a:hover {color: rgba(235, 250, 231, 1);
     transition: all 0.3s ease;}
@@ -107,7 +107,8 @@ footer nav a:hover {color: rgba(235, 250, 231, 1);
 .InstallApp:hover {background-color:rgba(202, 228, 197, 1);
     border: 1px solid rgba(202, 228, 197, 1);
     color:white;}
-
+footer p {position:relative;
+    top:100px;}
 /* Media Queries */
 @media screen and (max-width: 1024px) {
     footer {
