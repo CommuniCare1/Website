@@ -95,7 +95,7 @@ button{display: flex;
 
 .FAQ {margin-top:100px;
     background-color: rgba(191, 209, 229, 1);
-    height:1000px;}
+    padding-bottom: 50px;}
 .FAQ h2 {color: rgba(12, 74, 127, 1);
     font-family:serif;
     font-size: 64px;
@@ -112,61 +112,49 @@ button{display: flex;
     text-align: center;
     margin-left:-700px;
     margin-top:-50px;}
-.FAQ {}
-.FAQ {}
+.FAQ ul {margin: 100px auto;
+    width: 1100px;
+    padding: 0;
+    list-style: none;}
+.FAQ li {margin-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    background: inherit;}
+.FAQ li label{padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 40px; /*Might edit*/
+    cursor: pointer;
+    color: rgba(28, 51, 18, 1);
+    font-family: "Domine", serif;
+    font-weight:bolder;
+    font-style: lighter;
+    font-size: 40px;
+    line-height: 50px;}
+.FAQ li label span {transform: rotate(90deg);
+    color: #323232;
+    margin-left: auto;
+    padding-left: 10px;}
+.FAQ input[type="checkbox"]{display:none;}
 
-
-    #accordion{
-        margin: 100px auto;
-        width: 1100px;
-    }
-    #accordion li{
-        list-style: none;
-        margin-bottom: 10px;
-        background: inherit;
-        border: 0px 0px 2px 0px;
-        padding: 0px 0px 0px 0px;
-        border-bottom: 2px solid rgba(0, 0, 0, 1);
-    }
-    #accordion li label{
-        padding: 10px;
-        display: flex;
-        flex-grow: 1;
-        justify-content: space-between;
-        align-items: center;
-        text-align: left;
-        margin-top: 40px; /*Might edit*/
-        cursor: pointer;
-        color: rgba(28, 51, 18, 1);
-        font-family: "Domine", serif;
-        font-weight:bolder;
-        font-style: normal;
-        font-size: 40px;
-        line-height: 50px;
-    }
-    #accordion li label span{
-        transform: rotate(90deg);
-        color: #323232;
-        margin-left: auto;
-        padding-left: 10px;
-    }
-    #accordion input[type="checkbox"]{display: none;}
-    #accordion .accordion-content{
-        padding: 0 10px;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease;
-        color: #1C3312;
-        font-family: "Domine", serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        text-align: left;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px;
-        cursor: pointer;
-        font-weight: lighter;
-        font-size: 30px;
-        line-height: 50px;
-    }
-    #accordion input[type="checkbox"]:checked +.accordion-content{max-height: 400px;}
+.FAQ .accordion-content {padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    color: #1C3312;
+    font-family: "Domine", serif;
+    font-style: normal;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 50px;}
+.FAQ input[type="checkbox"]:checked +.accordion-content{max-height: none;
+    overflow:hidden;
+    max-height: 1000px;
+    padding-bottom: 20px;}
