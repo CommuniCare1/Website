@@ -33,7 +33,7 @@ button{
     margin-top: 20px;
     justify-content: center;
     transition: all 0.3s ease;
-    }
+}
 
 /*Header/Navigation Bar Starts*/ /*ALMOST DONE JUST NEED MEDIA!!*/
 header {
@@ -45,12 +45,29 @@ header {
     height:110px;
     top:0px;
     background-color: rgba(255, 255, 255, 1);
-    padding: 20px;
     text-align: center;
-    z-index:100;}
+    z-index:100;
+    padding: 1.3rem 2%;
+}
+/*
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 10%;
+    background: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height:110px;
+    display:block;
+}
+*/
 header img {
     position: relative;
-    left:-525px;}
+    left:-525px;
+}
 header nav {
     position:relative;
     text-align: center;
@@ -66,7 +83,6 @@ header nav a{
     text-align: left;
     bottom: 40px;
     position:relative;
-
 }
 
 /*
@@ -82,16 +98,15 @@ header nav a {
     position: relative;
     top: -50px;
     left: -80px;}
-header nav a:h cvmover {opacity:0.25;
-    transition: all 0.3s ease;}
 */
-
-header button {position:relative;
+header button {
+    position:relative;
     width: 153.99px;
     top: -100px;
     left: 1160px;
     font-size: 18px;
-    border: 2px solid transparent;}
+    border: 2px solid transparent;
+}
 
 header button:hover {background-color:inherit;
     border: 1px solid rgba(28, 51, 18, 1);}
@@ -103,8 +118,7 @@ header button:active {animation-timing-function: ease-out;
     color: #1C3312;
     cursor: pointer;
     position: relative;
-    top: 0px;
-    display: none;
+    top: 2px;
 }
 
 /* Media Queries */
@@ -186,3 +200,4 @@ header button:active {animation-timing-function: ease-out;
     }
 }
 /* Header/Navigation Bar Ends */
+
