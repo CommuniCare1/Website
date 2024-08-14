@@ -1,0 +1,172 @@
+body {margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+    align-items: center;}
+
+button{display: flex;
+    align-items: center;
+    background: #CAE4C5;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+    font-variation-settings:"wdth" 100;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50px;
+    width: 160px;
+    color: #1C3312;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    }
+
+.Workshops-Section {font-family: sans-serif;
+    height:auto;
+    margin-bottom:-300px;
+    top:-30px;
+    position:relative;}
+
+.Workshops-Section img {transform:scale(1.5);
+    position:relative;
+    top:-230px;
+    left:-50px;}
+.Workshops-Section .collaborateimg {position:relative;
+    transform: scale(0.85);
+    left:250px;
+    top:0px;}
+.Workshops-Section h1 {color: rgba(12, 74, 127, 1);
+    position:relative;
+    top:-300px;
+    margin-left: 200px;
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 153.6px;
+    text-align: left;}
+.Workshops-Section p {color: rgba(0, 0, 0, 1);
+    position:relative;
+    font-size: 30px;
+    font-weight: 100;
+    width:68%;
+    line-height: 43.58px;
+    text-align: left;
+    top:-350px;
+    left:200px;}
+
+.Why-Workshops {justify-content: center;}
+.Why-Workshops h3 {color:rgba(12, 74, 127, 1);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65.37px;
+    position:relative;
+    left:-240px;}
+.Why-Workshops li {font-size: 32px;
+    font-weight: 100;
+    line-height: 43.58px;
+    text-align: left;
+    width:73%;
+    position:relative;
+    top:50px;
+    margin-top: 40px;
+    margin-left:200px;}
+.Why-Workshops p {font-size: 32px;
+    font-weight: 100;
+    line-height: 43.58px;
+    text-align: left;
+    width:72%;
+    margin-top:120px;
+    margin-left:200px;}
+.Why-Workshops .TBC {font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-top:100px;}
+
+.FAQ {margin-top:100px;
+    background-color: rgba(191, 209, 229, 1);
+    height:1000px;}
+.FAQ h2 {color: rgba(12, 74, 127, 1);
+    font-family:serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72.96px;
+    text-align: center;
+    margin-left:-240px;
+    padding-top:100px;}
+.FAQ h3 {color:rgba(103, 138, 168, 1);
+    font-family:serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72.96px;
+    text-align: center;
+    margin-left:-700px;
+    margin-top:-50px;}
+.FAQ {}
+.FAQ {}
+
+
+    #accordion{
+        margin: 100px auto;
+        width: 1100px;
+    }
+    #accordion li{
+        list-style: none;
+        margin-bottom: 10px;
+        background: inherit;
+        border: 0px 0px 2px 0px;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 2px solid rgba(0, 0, 0, 1);
+    }
+    #accordion li label{
+        padding: 10px;
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin-top: 40px; /*Might edit*/
+        cursor: pointer;
+        color: rgba(28, 51, 18, 1);
+        font-family: "Domine", serif;
+        font-weight:bolder;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #accordion li label span{
+        transform: rotate(90deg);
+        color: #323232;
+        margin-left: auto;
+        padding-left: 10px;
+    }
+    #accordion input[type="checkbox"]{display: none;}
+    #accordion .accordion-content{
+        padding: 0 10px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+        color: #1C3312;
+        font-family: "Domine", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        cursor: pointer;
+        font-weight: lighter;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    #accordion input[type="checkbox"]:checked +.accordion-content{max-height: 400px;}
