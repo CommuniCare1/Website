@@ -47,7 +47,7 @@ header {
     background-color: rgba(255, 255, 255, 1);
     padding: 20px;
     text-align: center;
-    z-index:100;}
+    z-index:1000;}
 header img {
     position: relative;
     left:-550px;}
@@ -124,14 +124,14 @@ header button:active {animation-timing-function: ease-out;
     header nav a {
         font-size: 20px;
         margin-left: 1.5rem;
-    } 
-    
+    }
+
     header button {
         position: relative;
         left: 300px;
         margin: 10px 430px;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
