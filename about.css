@@ -36,6 +36,16 @@ button{
 }
 
 /*About Us Starts*/
+header::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    
+}
 .aboutus-about {
     padding:80px;
     position:relative;
