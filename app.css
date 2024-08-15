@@ -214,7 +214,7 @@ header::before{
     .how-box {
         height: 550px;
         padding: 5%;
-        width: 100%;
+        width: 120%;
         text-align: center;
     }
 
@@ -248,38 +248,26 @@ header::before{
 
 @media screen and (max-width: 768px) {
     .meet-app {
-        margin-top: 150px;
+        margin-top: 1.5rem;
         text-align: left;
     }
 
     .meet-app h1 {
-        margin-top: -100px;
-        margin-left: 3.125rem;
-        font-size: 3rem;
-    }
-
-    .blueleaf {
-        top: -6.25rem;
-        left: 37.5rem;
+        margin-top: -1.5rem;
+        margin-left: 1.5rem;
+        font-size: 2rem;
     }
 
     .meet-left p {
-        margin-left: 60px;
-        margin-top: -60px;
-        font-size: 24px;
-        width: 80%;
-    }
-
-    .how-box {
-        height: 500px;
-        padding-left: 3%;
-        flex-direction: column;
-        width: 100%;
+        margin-left: 1rem;
+        margin-top: -1rem;
+        font-size: 1.5rem;
+        width: 90%;
     }
 
     .how-text h2 {
-        margin-left: 200px;
-        font-size: 36px;
+        margin-left: 2rem;
+        font-size: 1.75rem;
     }
 
     .ratio {
@@ -289,24 +277,25 @@ header::before{
     }
 
     #faq h2 {
-        margin-top: 100px;
-        font-size: 44px;
+        margin-top: 2rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     #accordion {
-        width: 100%;
-        padding: 0 20px;
+        width: 95%;
+        padding: 0 1rem;
     }
 
     #accordion li label {
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
     #accordion .accordion-content {
-        font-size: 22px;
+        font-size: 1rem;
     }
 }
+
 
 @media screen and (max-width: 462px) {
     .meet-app {
@@ -322,8 +311,8 @@ header::before{
 
     .blueleaf {
         top: -5rem;
-        left: 20rem; /* Adjust according to the screen size */
-        width: 4rem; /* Adjust size for smaller screens */
+        left: 20rem; 
+        width: 4rem;
     }
 
     .meet-left p {

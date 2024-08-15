@@ -36,20 +36,24 @@ button{
 header {
     padding: 1.3rem 5%;
 }
-.contact-container{width: 100%;
+.contact-container{
+    width: 100%;
     color:#1C3312;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-variation-settings: "wdth" 100;}
-.contact-container h1{margin-bottom: 0px;
+    font-variation-settings: "wdth" 100;
+}
+.contact-container h1{
+    margin-bottom: 0px;
     margin-top: 0px;
     font-family: Open Sans;
     font-size: 75px;
     font-weight: 700;
     line-height: 130.73px;
-    text-align: center;}
+    text-align: center;
+}
 
 .contact-box{display: flex;}
 .contact-left{flex-basis: 60%;
