@@ -58,21 +58,7 @@ header::before{
     width: 100%;
     height: 100%;
 }
-/*
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 10%;
-    background: #FFFFFF;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    height:110px;
-    display:block;
-}
-*/
+
 header img {
     position: relative;
     right: 35%;
@@ -98,20 +84,6 @@ header nav a{
     left: 0%;
 }
 
-/*
-header nav a {
-    color: rgba(28, 51, 18, 1);
-    font-size: 24px;
-    height:33px;
-    font-weight: lighter;
-    margin: 0 50px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-    top: -50px;
-    left: -80px;}
-*/
 header button {
     position:relative;
     width: 153.99px;
@@ -144,6 +116,7 @@ header #check{
     display:none
 }
 /* Media Queries */
+
 @media screen and (max-width: 1226px) {
     header {
         padding: 1.3rem 5%;
@@ -181,7 +154,9 @@ header #check{
         background: rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(50px);
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        overflow: hidden;
         transition: .3s ease;
+        display: block;
     }
     #check:checked~.navbar {
         height: 20rem;
@@ -197,10 +172,15 @@ header #check{
     header nav a, header button {
         display: block;
         font-size: 1.1rem;
-        margin: 2.7rem;
+        margin: 1.5rem;
         text-align: center;
     }
+    #menu-icon {
+        display: block;
+    }
 }
+
+
 @media screen and (max-width: 768px) {
     header {
         padding: 1rem 3%;
@@ -271,61 +251,4 @@ header #check{
         right: -20%;
     }
 }
-
-/*
-@media screen and (max-width: 70px) {
-    header {
-        height: auto;
-        padding: 10px;
-    }
-
-    header img {
-        position: relative;
-        left: 0;
-    }
-
-    header nav a {
-        font-size: 18px;
-        margin: 5px;
-    }
-
-    header button {
-        width: 180px;
-        font-size: 16px;
-        margin: 10px 320px;
-
-    }
-    header label{
-        display: block;
-
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    header {
-        height: auto;
-        padding: 10px;
-        flex-direction: column;
-    }
-
-    header img {
-        left: 0;
-        margin-bottom: 10px;
-    }
-
-    header nav a {
-        font-size: 16px;
-        margin: 5px;
-        top: 0;
-        left: 0;
-    }
-
-    header button {
-        width: 160px;
-        font-size: 14px;
-        margin: 10px 180px;
-    }
-}
-*/
 /* Header/Navigation Bar Ends */

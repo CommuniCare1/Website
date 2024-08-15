@@ -32,7 +32,8 @@ button{display: flex;
     transition: all 0.3s ease;
     }
 
-.Workshops-Section {font-family: sans-serif;
+.Workshops-Section {margin-top:50px;
+    font-family: sans-serif;
     height:auto;
     margin-bottom:-300px;
     top:-30px;

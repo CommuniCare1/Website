@@ -71,7 +71,8 @@ button{
 
 .how-box {display: flex;
     justify-content: left;
-    background: #083358;}
+    background: #083358;
+    height:600px;}
 .how-text h2{color: #FFFFFF;
     font-family: "Domine", serif;
     font-weight: 700;
@@ -80,19 +81,14 @@ button{
     text-align: left;
     font-size: 48px;
     line-height: 54.72px;
-    margin-top:100px;
-    margin-left: 120px;}
-.ratio{padding-bottom: 7.5%;
-    position:relative;
-    display: block;
-    width: 100%;}
-.ratio iframe{align-items: center;
-    justify-content:center;
-    text-align: center;
-    margin-left:112px;
     margin-top:50px;
-    height:513px;
-    width:1215px;}
+    margin-left: 600px;}
+.ratio {width: 800px;
+    height: 450px;
+    margin-left: 350px;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;}
 
 #faq h2{margin-top: 150px;
     color: #1C3312;
