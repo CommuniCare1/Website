@@ -36,12 +36,8 @@ button{
     }
 
 /*App Starts*/
-.meet-app {
-    justify-content: center;
-    flex-grow: 1;
-    display: flex;
-    margin-top:250px;
-}
+.meet-app {flex-grow: 1;
+    margin-top:250px;}
 .meet-app h1{
     position:relative;
     display:flex;
@@ -57,39 +53,26 @@ button{
 }
 
 .blueleaf {position: relative;
-    top: -250px;
-    left:40px;}
-/*.meet-box {margin-bottom: 100px;}*/
-.meet-left {text-align: left;}
+    top: -140px;
+    left:1100px;
+    display:flex;}
+
 .meet-left p{color: #083358;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    position:relative;
-    width:150%;
+    font-size: 32px;
+    margin-left: 140px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    display:flex;
     text-align: left;
-    left:-1030px;}
+    width:60%;}
 
-.meet-right {
-    position:relative;
-    left:-200px;
-    top:-200px;
-    transform: scale(1.25);
-}
-.meeto-right-apple {
-    position:relative;
-    left:-300px;
-    top:56px;
-}
-
-.how-box {
-    display: flex;
+.how-box {display: flex;
     justify-content: left;
-    background: #083358;
-}
-.how-text h2{
-    color: #FFFFFF;
+    background: #083358;}
+.how-text h2{color: #FFFFFF;
     font-family: "Domine", serif;
     font-weight: 700;
     font-style: normal;
@@ -98,48 +81,36 @@ button{
     font-size: 48px;
     line-height: 54.72px;
     margin-top:100px;
-    margin-left: 120px;
-}
-.ratio{
-    padding-bottom: 7.5%;
+    margin-left: 120px;}
+.ratio{padding-bottom: 7.5%;
     position:relative;
     display: block;
-    width: 100%;
-}
-.ratio iframe{
-    align-items: center;
+    width: 100%;}
+.ratio iframe{align-items: center;
     justify-content:center;
     text-align: center;
     margin-left:112px;
     margin-top:50px;
     height:513px;
-    width:1215px;
-}
+    width:1215px;}
 
-#faq h2{
-    margin-top: 150px;
+#faq h2{margin-top: 150px;
     color: #1C3312;
     font-family: "Domine", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 60px;
-    line-height: 72.96px;
-}
+    line-height: 72.96px;}
 
-#accordion{
-    margin: 100px auto;
-    width: 1100px;
-}
-#accordion li{
-    list-style: none;
+#accordion{margin: 100px auto;
+    width: 1100px;}
+#accordion li{list-style: none;
     margin-bottom: 10px;
     background: inherit;
     border: 0px 0px 2px 0px;
     padding: 0px 0px 0px 0px;
-    border-bottom: 2px solid rgba(0, 0, 0, 1);
-}
-#accordion li label{
-    padding: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 1);}
+#accordion li label{padding: 10px;
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
@@ -150,36 +121,34 @@ button{
     color: rgba(28, 51, 18, 1);
     font-family: "Domine", serif;
     font-weight:bolder;
-    font-style: normal;
+    font-style: 100;
     font-size: 40px;
-    line-height: 50px;
-}
-#accordion li label span{
-    transform: rotate(90deg);
+    line-height: 50px;}
+#accordion li label span{transform: rotate(90deg);
     color: #323232;
     margin-left: auto;
-    padding-left: 10px;
-}
+    padding-left: 10px;}
 #accordion input[type="checkbox"]{display: none;}
-#accordion .accordion-content{
-    padding: 0 10px;
+#accordion .accordion-content{padding: 0 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
     color: #1C3312;
     font-family: "Domine", serif;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style: lighter;
     text-align: left;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
     cursor: pointer;
     font-weight: lighter;
-    font-size: 30px;
-    line-height: 50px;
-}
-#accordion input[type="checkbox"]:checked +.accordion-content{max-height: 400px;}
+    font-size: 27px;
+    line-height: 50px;}
+#accordion input[type="checkbox"]:checked +.accordion-content{max-height: none;
+    overflow:hidden;
+    max-height: 1000px;
+    padding-bottom: 20px;}
 
 @media (max-width: 1024px) {
     .meet-app {
