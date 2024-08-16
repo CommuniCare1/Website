@@ -89,10 +89,11 @@ header {
 }
 #mailicon{
     position: relative;
-    left:-300px;
-    top:86px;
+    top:0px;
     transform: scale(3);
-    color: #7BA769
+    color: #7BA769;
+    display: block;
+    left: 170px;
 }
 .contact-right{
     flex-basis: 60%;
@@ -230,17 +231,20 @@ textarea{
     header {
         padding: 1.3rem 5%;
     }
+
     .contact-box {
         flex-direction: column;
         margin-top:150px;
     }
 
     .contact-left, .contact-right {
-        padding: 20px;
+        position:relative;
+        padding: 50px;
         flex-basis: 100%;
         justify-content: center;
         display:inline-block;
         margin-top:-100px;
+        align-items: center;
     }
 
     .contact-container h1, .contact-container img {
@@ -252,27 +256,42 @@ textarea{
     .contact-left h3 {
         font-size: 40px;
         line-height: 50px;
-        text-align: center;}
+        text-align: center;
+    }
     .contact-left h3 {
         position:relative;
         left:50px;
-        top:-50px;}
-    .contact-left h4 {position:relative;
+        top:-50px;
+        text-align: center;
+    }
+    .contact-left h4 {
+        position:relative;
         text-align: center;
         width:60%;
         font-size: 40px;
         line-height:45px;
-        left:250px;
-        top:-50px;}
-    .email {width:350px;}
-    .contact-left button, .contact-right button {
+        top:-50px;
+        left:200px;
+    }
+    
+    .contact-right button {
         position:relative;
-        font-size: 16px;
-        left:380px;
+        font-size: 24px;
+        left: 380px;
+        
+    }
+    .contact-left button {
+        font-size: 18px;
+        left: 250px;
+        width: 60%;
+        top: -60px;
+        position: relative;
+
     }
 
     input, textarea {
         width: 59%;
+        left: 350px;
     }
 }
 
@@ -283,7 +302,8 @@ textarea{
     }
     .contact-box, .join-box, .contact-container {
         flex-direction: column;
-        margin-top:120px;}
+        margin-top:120px;
+    }
 
     .contact-left, .contact-right, .join-left, .join-right {
         padding: 20px;
@@ -295,8 +315,7 @@ textarea{
     .contact-left h3, .join-left h3 {
         font-size: 35px;
         line-height: 45px;
-        text-align: center;
-        
+        text-align: center;     
     }
 
     .contact-left h4, .join-left h4 {
