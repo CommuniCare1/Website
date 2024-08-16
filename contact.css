@@ -10,28 +10,8 @@ body {margin: 0;
         "wdth" 100;
     text-align: center;
     align-items: center;}
-/*
-button{
-    display: flex;
-    align-items: center;
-    background: #CAE4C5;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size:15px;
-    font-variation-settings:"wdth" 100;
-    padding: 10px;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 50px;
-    width: 160px;
-    color: #1C3312;
-    height: 50px;
-    margin-top: 20px;
-    justify-content: center;
-    transition: all 0.3s ease;}
-*/
+
+
 /*Contact Starts*/
 header {
     padding: 1.3rem 5%;
@@ -81,10 +61,10 @@ header {
     font-style:normal;
     font-variation-settings: "wdth" 100;
     margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 32.68px;
     text-align: left;
-    width: 70%;
+    width: 69%;
 }
 .contact-left button {
     border-radius: 26.71px 26.71px 26.71px 26.71px;
@@ -152,14 +132,7 @@ header {
     margin-top: 20px;
     text-align: right;
 }
-/*
-::placeholder {
-    position:relative;
-    transform: scale(1.5);
-    left:125px;
-    text-overflow: ellipsis;
-}
-*/
+
 input, textarea {
     width: 80%;
     border: 2px solid #1C3312;
@@ -201,7 +174,6 @@ textarea{
 .join-box{
     display: flex;
     background: #083358;
-    width:100%;
 }
 .join-left{
     flex-basis: 60%;
