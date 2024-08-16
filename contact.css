@@ -231,11 +231,12 @@ textarea{
     header {
         padding: 1.3rem 5%;
     }
-    .contact-box, .join-box, .contact-container {
+    .contact-box {
         flex-direction: column;
-        margin-top:150px;}
+        margin-top:150px;
+    }
 
-    .contact-left, .contact-right, .join-left, .join-right {
+    .contact-left, .contact-right {
         padding: 20px;
         flex-basis: 100%;
         justify-content: center;
@@ -249,7 +250,7 @@ textarea{
         margin-left: 100px;
     }
 
-    .contact-left h3, .join-left h3 {
+    .contact-left h3 {
         font-size: 40px;
         line-height: 50px;
         text-align: center;}
@@ -265,12 +266,7 @@ textarea{
         left:250px;
         top:-50px;}
     .email {width:350px;}
-    .join-left h4 {
-        font-size: 16px;
-        line-height: 25px;
-        text-align: center;}
-
-    .contact-left button, .contact-right button, .join-right button {
+    .contact-left button, .contact-right button {
         position:relative;
         width: 300px;
         height: 90px;
