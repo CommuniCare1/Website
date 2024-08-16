@@ -172,7 +172,12 @@ header::before{
 .workshopstuff {
     background-color: rgba(8, 51, 88, 1);
     color: #BFD1E5;
+    flex-direction: row-reverse;
 }
+.workshop-left{
+    order: 1;
+}
+
 .aboutus h2, .workshopstuff h2 {
     font-size: 4rem;
     font-weight: 700;
@@ -347,3 +352,22 @@ header::before{
     margin-top:100px;
 }
 /*Home Ends*/
+
+@media (max-width: 768px) {
+    .aboutus, .workshopstuff {
+        flex-direction: column;
+        margin-top:120px;}
+
+    .aboutus-left, .aboutus-right, .workshop-left, .workshop-right {
+        padding: 20px;
+        flex-basis: 100%;
+        justify-content: center;
+        display:inline-block;
+        margin-top:-100px;
+    }
+    .aboutus-left h3, .workshop-left h3 {
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center; 
+    }
+}

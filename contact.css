@@ -10,7 +10,7 @@ body {margin: 0;
         "wdth" 100;
     text-align: center;
     align-items: center;}
-
+/*
 button{
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ button{
     margin-top: 20px;
     justify-content: center;
     transition: all 0.3s ease;}
-
+*/
 /*Contact Starts*/
 header {
     padding: 1.3rem 5%;
@@ -55,9 +55,14 @@ header {
     text-align: center;
 }
 
-.contact-box{display: flex;}
-.contact-left{flex-basis: 60%;
-    padding: 0px 180px;}
+.contact-box{
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 4px 60px;
+    flex-wrap: column;
+}
 .contact-left h3{
     color: #315A20;
     font-family: "Open Sans", sans-serif;
@@ -79,30 +84,36 @@ header {
     font-size: 18px;
     line-height: 32.68px;
     text-align: left;
+    width: 70%;
 }
 .contact-left button {
     border-radius: 26.71px 26.71px 26.71px 26.71px;
     background-color: rgba(49, 90, 32, 1);
     color:rgba(202, 228, 197, 1);
     width:420px;
-    height: 115px;}
+    height: 115px;
+}
 .contact-left button p {
     position: relative;
     font-size:18px;
     text-align: left;
     margin: 20px 200px;
-    left: 40px;}
+    left: 40px;
+}
 .contact-left button a {
     color:rgba(202, 228, 197, 1);
-    width:80%;
-}
-.mailLeft {
-    position:relative;
-    top:-80px;
-    left:-180px;
-    transform: scale(1.25);
 }
 
+.contact-left button {
+    width: 70%;
+}
+#mailicon{
+    position: relative;
+    left:-300px;
+    top:86px;
+    transform: scale(3);
+    color: #7BA769
+}
 .contact-right{
     flex-basis: 60%;
     padding: 40px 60px;
@@ -122,7 +133,8 @@ header {
 #mailogo {
     top:-135px;
 }
-.email{display: flex;
+.email{
+    display: flex;
     align-items: center;
     background: #315A20;
     font-family: "Open Sans", sans-serif;
@@ -138,11 +150,16 @@ header {
     color: #CAE4C5;
     height: 50px;
     margin-top: 20px;
-    text-align: right;}
-::placeholder {position:relative;
+    text-align: right;
+}
+/*
+::placeholder {
+    position:relative;
     transform: scale(1.5);
-    left:125px;}
-
+    left:125px;
+    text-overflow: ellipsis;
+}
+*/
 input, textarea {
     width: 80%;
     border: 2px solid #1C3312;
@@ -168,11 +185,13 @@ textarea{
     font-size: 20px;
     width:200px;
     top:-40px;
-    left:-60px;}
+    left:-60px;
+}
 .contact-right button:hover {
     background-color:inherit;
     border: 2px solid rgba(202, 228, 197, 1);
-    color: rgba(202, 228, 197, 1);}
+    color: rgba(202, 228, 197, 1);
+}
 .contact-right button:active {
     animation-timing-function: ease-out;
     animation-duration: 300ms;
@@ -197,7 +216,8 @@ textarea{
     margin-bottom: 30px;
     font-size: 48px;
     line-height: 65.37px;
-    text-align: left;}
+    text-align: left;
+}
 
 .join-left h4{
     color: #FFFFFF;
@@ -213,21 +233,28 @@ textarea{
     padding: 40px 60px;
     color: #083358;
     height:350px;}
-.join-right button {color: rgba(8, 51, 88, 1);
+.join-right button {
+    color: rgba(8, 51, 88, 1);
     background-color: rgba(191, 209, 229, 1);
     width:200px;
     font-size: 20px;
     transform: scale(1.25);
-    margin: 160px 0px;}
-.join-right button:hover {background-color:inherit;
+    margin: 160px 0px;
+}
+.join-right button:hover {
+    background-color:inherit;
     border: 2px solid rgba(191, 209, 229, 1);
-    color: rgba(191, 209, 229, 1);}
-.join-right button:active {animation-timing-function: ease-out;
+    color: rgba(191, 209, 229, 1);
+}
+.join-right button:active {
+    animation-timing-function: ease-out;
     animation-duration: 300ms;
-    animation-name: dissolve;}
+    animation-name: dissolve;
+}
+
 
 /* Media Queries */
-@media screen and (max-width: 1226px) {
+@media screen and (max-width: 1107px) {
     header {
         padding: 1.3rem 5%;
     }
@@ -268,15 +295,12 @@ textarea{
     .email {width:350px;}
     .contact-left button, .contact-right button {
         position:relative;
-        width: 300px;
-        height: 90px;
         font-size: 16px;
-        left:380px;}
+        left:380px;
+    }
 
     input, textarea {
-        width: 90%;
-        margin-left: 0;
-        padding: 15px;
+        width: 59%;
     }
 }
 
@@ -313,14 +337,11 @@ textarea{
     }
 
     .contact-left button, .contact-right button, .join-right button {
-        width: 250px;
-        height: 80px;
         font-size: 14px;
     }
 
     input, textarea {
-        width: 100%;
-        padding: 10px;
+        width: 65%;
     }
 }
 
@@ -338,6 +359,7 @@ textarea{
     .contact-left h4, .join-left h4 {
         font-size: 12px;
         line-height: 18px;
+        text-align: center;
     }
 
     .contact-left button, .contact-right button, .join-right button {
@@ -345,10 +367,13 @@ textarea{
         height: 70px;
         font-size: 12px;
     }
-
+    
+    input{
+        padding: 10;
+    }
+    
     input, textarea {
-        width: 100%;
-        padding: 10px;
+        width: 50%;
     }
 }
 
