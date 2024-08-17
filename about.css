@@ -483,15 +483,14 @@ header::before{
 
 @media only screen and (max-width: 480px) {
 
-    .aboutus-about {margin-top:10px;
-        margin-bottom: 70px;}
+    .aboutus-about {margin-bottom: 50px;}
     .aboutus-about img {width: 89px;
         height: 72px;
-        left: 200px;
-        transform: scale(2);}
+        left: 180px;
+        transform: scale(1.25);}
     .aboutus-about h1 {
-        font-size: 68px;
-        top:100px;
+        font-size: 55px;
+        top:70px;
         text-align: left}
 
     .mission {height:250px;
@@ -505,83 +504,89 @@ header::before{
         font-size:30px;
         top:-60px;}
 
-    .motivation {height: auto;
-        padding: 20px;
-        margin-top: 100px;}
-
+    .motivation {height: 1200px;
+        width:100%;
+        padding: 50px;}
     .motivation h2 {font-size: 50px;
-        left: 20px;
-        padding-top: 100px;}
-
-    .motivation p {font-size: 20px;
-        top: 50px;
-        left: 20px;}
-
-    .dashed-line img {width: 100%;
-        height: auto;
-        margin-top: -700px;
-        left: 0px;}
-
-    .goal {flex-direction: column;
-        margin-left: 0px;}
-
-    .goal-text {padding: 20px;
-        left: 0px;}
-
-    .goal-text h2 {font-size: 40px;
-        left: 0px;}
-
-    .goal-text p {font-size: 20px;
-        left: 0px;}
-
-    .whatwedo {height: auto;
         padding-top: 100px;
-        margin-top: 50px;}
+        top:50px;}
+    .motivation p {font-size: 20px;
+        top: 95px;}
 
+    .dashed-line img {overflow-x: hidden;}
+    .dashed-line img {position: relative;
+        left:-605px;
+        top:-150px;
+        transform: scale(0.5);}
+    .goal-image {position: relative;
+        transform: scale(0.25);
+        top: -380px;
+        left: 250px;}
+
+    .goal-text {margin-top: -510px;
+        border-radius: 0;
+        padding: 50px;
+        padding-bottom: 100px;
+        z-index:2;}
+    .goal-text h2 {left: 30px;
+        text-align:left;}
+    .goal-text p {text-align:left;
+        left: 30px;}
+
+    .whatwedo {width:100%;
+        padding: 50px;
+        margin-top: 0;}
     .whatwedo h2 {font-size: 50px;
-        margin-left: 20px;}
-
-    .whatwedo p {
-        font-size: 20px;
         margin-left: 20px;
-        width: 90%;
-    }
-
-    .whatwedo img {
+        margin-bottom:0px;}
+    .whatwedo p {font-size: 20px;
+        margin-left: 20px;
+        width: 90%;}
+    .whatwedo img {position: relative;
         margin-left: 0px;
-        margin-top: 0px;
         width: 100%;
-        height: auto;
-    }
+        top: -900px;}
 
-    .ourstory-text h2 {
+    .ourstory-text {padding: 0;}
+    .ourstory-text h2 {position: relative;
         font-size: 40px;
-    }
-
-    .ourstory-text p {
+        text-align: center;
+        left: 50px;}
+    .ourstory-text p {position: relative;
         font-size: 18px;
         width: 100%;
-    }
+        top: 300px;
+        left: 50px;}
+    .ourstory-image img {width: 100%;
+        left: -20px;
+        top: -800px;}
 
-    .ourstory-image img {
-        width: 100%;
-        left: 0px;
-        top: 20px;
-    }
+    .team-container {display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        position: relative;
+        left: 50px;}
+    .team {font-size: 50px;
+        left: 0;
+        position: relative;
+        box-sizing: border-box;
+        margin-top:-200px;}
+    .team h2 {position:relative;
+        left:30px;}
+    .team img {margin-bottom: 5px; }
+    .team p {font-size: 14px;
+        margin: 0;
+        width:100%;}
 
-    .team h2 {
-        font-size: 50px;
-    }
-
-    .team-container {
-        justify-content: center;
-        margin-left: 0px;
-        gap: 20px;
-    }
-
-    .team p {
-        font-size: 14px;
-    }
 }
+
+
+
+
+
+
+
+
+
 
 /*About Us Ends*/
