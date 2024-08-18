@@ -186,35 +186,51 @@ footer p {position:relative;
         align-items: center;
         gap: 10px;}
 
-    footer {height: 57em;
-        padding: 25%;
-        width:100%;}
+    footer {
+        height: 61em;
+        padding: 0%;
+        width:100%;
+        /* padding-bottom: 4em; */
+        }
 
-    .FooterImg {top: -47em;
-        width: 100%;}
-    footer h4 {font-size: 45px;
+    .FooterImg {
+        top: -42em;
+        width: 100%;
+        transform: scale(0.85);
+        }
+    footer h4 {
+        font-size: 38px;
         position: relative;
-        top: 1em;
-        left:-0.5em;
-        width: 126%;}
-    .Join {width: 260px;
+        top: 3em;
+        left: -1em;
+        width: 126%;
+        }
+    .Join {
+        width: 260px;
         height: 70px;
         font-size: 25px;
         position: relative;
-        top: 30px;
+        top: 87px;
         transform: scale(1.25);
-        margin: 20px;}
+        margin: 20px;
+        }
 
-    footer nav {transform: scale(2);
-        margin-top: 140px;}
+    footer nav {
+        transform: scale(2);
+        margin-top: 167px;
+        }
     footer nav a {font-size: 16px;
         margin: 10px 0;}
-    .InstallApp {transform: scale(2);
-        top: -60px;
-        margin-bottom: 30px;}
-    footer p {margin-top: 13em;
-        font-size: 19px;
+    .InstallApp {
+        transform: scale(2);
+        top: -91px;
+        margin-bottom: 30px;
+        }
+    footer p {
+        margin-top: 12em;
+        font-size: 16px;
         width: 130%;
-        left: -1em;
-        display:flex;}
+        left: 3em;
+        display:flex;
+        }
 /* Footer Ends */
