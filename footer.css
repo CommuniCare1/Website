@@ -190,12 +190,13 @@ footer p {position:relative;
         padding: 25%;
         width:100%;}
 
-    .FooterImg {top: -46em;
+    .FooterImg {top: -47em;
         width: 100%;}
     footer h4 {font-size: 45px;
         position: relative;
-        top: 50px;
-        width: 110%;}
+        top: 1em;
+        left:-0.5em;
+        width: 126%;}
     .Join {width: 260px;
         height: 70px;
         font-size: 25px;
@@ -213,6 +214,7 @@ footer p {position:relative;
         margin-bottom: 30px;}
     footer p {margin-top: 13em;
         font-size: 19px;
-        width: 120%;
-        left: -2em;}
+        width: 130%;
+        left: -1em;
+        display:flex;}
 /* Footer Ends */
