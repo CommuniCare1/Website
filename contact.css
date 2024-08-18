@@ -418,8 +418,7 @@ textarea{
 @media screen and (max-width: 480px) {
     .contact-container img{
         position: relative;
-        width: 89px;
-        height: 72px;
+        width: 100%;
         top: -50px;
     }
     .contact-container h1 {
