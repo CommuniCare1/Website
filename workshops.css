@@ -119,7 +119,8 @@ button{display: flex;
     list-style: none;}
 .FAQ li {margin-bottom: 10px;
     border-bottom: 2px solid rgba(0, 0, 0, 1);
-    background: inherit;}
+    background: inherit;
+    color:rgba(12, 74, 127, 1);}
 .FAQ li label{padding: 10px;
     display: flex;
     flex-grow: 1;
@@ -128,7 +129,6 @@ button{display: flex;
     text-align: left;
     margin-top: 40px; /*Might edit*/
     cursor: pointer;
-    color: rgba(28, 51, 18, 1);
     font-family: "Domine", serif;
     font-weight:bolder;
     font-style: lighter;
@@ -159,3 +159,53 @@ button{display: flex;
     overflow:hidden;
     max-height: 1000px;
     padding-bottom: 20px;}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    .Workshops-Section {left: -7em;}
+    .Workshops-Section img {top: 3em;
+        left: 26em;
+        display: flex;}
+    .Workshops-Section .collaborateimg {top: 9em;
+        left: 13em;}
+    .Workshops-Section h1 {top: -4.5em;
+        left: 1.5em;
+        justify-content: center;
+        display: flex;}
+    .Workshops-Section p {top: -7em;
+        left: 8em;
+        width: 100%;}
+
+    .Why-Workshops {margin-top: 7em;}
+    .Why-Workshops h3 {left: 1.6em;
+        font-size: 4em;}
+    .Why-Workshops ul {left: -9em;
+        top: -4em;
+        position: relative;}
+    .Why-Workshops li {font-size: 2em;
+        width: 116%;
+        line-height: 1.4em;}
+    .Why-Workshops p {width: 112%;
+        left: -3em;
+        top: -1em;
+        position: relative;
+        font-size: 2em;}
+
+    .FAQ {padding:25%;
+        width:100%;}
+    .FAQ h2 {left: 2em;
+        top: -2em;
+        position: relative;}
+    .FAQ h3 {position: relative;
+        left: 5.5em;
+        top: -1em;}
+    .FAQ ul {top: -6em;
+        position: relative;
+        left: -2em;}
+    .FAQ li {width: 46%;height: auto;}
+    .FAQ label {height:auto}
+    .FAQ ul li .accordion-content p {height: 45em;}
+    .FAQ p {height:auto;}
+    .FAQ input {height:auto;}
+    }
