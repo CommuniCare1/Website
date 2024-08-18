@@ -13,7 +13,7 @@ body {margin: 0;
 
 
 /*Contact Starts*/
-header {
+header{
     padding: 1.3rem 5%;
 }
 .contact-container{
@@ -81,6 +81,7 @@ header {
     left: 40px;
 }
 .contact-left button a {
+    font-size:18px;
     color:rgba(202, 228, 197, 1);
 }
 
@@ -394,7 +395,7 @@ textarea{
         position: relative;
         left:200px
     }
-    .contact-left p{
+    #email p{
         position: relative;
         font-size: 10px;
         left: 100px
@@ -433,23 +434,45 @@ textarea{
         font-size: 30px;
         line-height: 40px;
     }
+
+    .contact-left h3{
+        position: relative;
+        top: -90px;
+        font-size: 25px;
+    }
     
     .contact-left h4, .join-left h4 {
         font-size: 12px;
         line-height: 18px;
         text-align: center;
+        top: -40px;
+    }
+    .contact-left h4{
+        position: relative;
+        top: -125px;
     }
 
-    .contact-left button, .contact-right button, .join-right button {
+    .contact-right button, .join-right button {
         width: 200px;
         height: 70px;
         font-size: 12px;
     }
-    
-    input{
-        padding: 10;
+    .contact-left button{
+        position: relative;
+        top: -160px;
+        width: 400px;
     }
-    
+    .contact-left p{
+        position: relative;
+        font-size: x-small;
+    }
+    input{
+        padding: 35px 40px;
+    }
+    .contact-right{
+        position: relative;
+        top: -100px;
+    }
     input, textarea {
         width: 89.9%;
     }
