@@ -110,7 +110,8 @@ header {
     position: relative;
     left:-200px;
     top:7.5px;
-    transform: scale(1.25);}
+    transform: scale(1.25);
+}
 #mailogo {
     top:-135px;
 }
@@ -235,18 +236,24 @@ textarea{
     .contact-box {
         flex-direction: column;
         margin-top:150px;
+        width: 100%;
     }
 
     .contact-left, .contact-right {
         position:relative;
         padding: 50px;
         flex-basis: 100%;
-        justify-content: center;
         display:inline-block;
         margin-top:-100px;
         align-items: center;
     }
-
+    .contact-right, .contact-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .contact-container h1, .contact-container img {
         font-size: 60px;
         line-height: 100px;
@@ -256,14 +263,14 @@ textarea{
     .contact-left h3 {
         font-size: 40px;
         line-height: 50px;
-        text-align: center;
     }
+
     .contact-left h3 {
         position:relative;
         left:50px;
         top:-50px;
-        text-align: center;
     }
+
     .contact-left h4 {
         position:relative;
         text-align: center;
@@ -271,28 +278,64 @@ textarea{
         font-size: 40px;
         line-height:45px;
         top:-50px;
-        left:200px;
+        left:50px;
     }
     
     .contact-right button {
         position:relative;
         font-size: 24px;
-        left: 380px;
+        left: 20px;
+        top: -10px;
         
     }
     .contact-left button {
         font-size: 18px;
-        left: 250px;
+        left: 50px;
         width: 60%;
         top: -60px;
         position: relative;
 
     }
-
-    input, textarea {
-        width: 59%;
-        left: 350px;
+    .input-group span{
+        position: relative;
+        left:40px;
+        top:7.5px;
+        transform: scale(1.25);
     }
+    #mailogo {
+        top:-95px;
+    }
+    input, textarea {
+        width: 89%; 
+        margin: 10px auto; 
+        padding: 40px;
+        border: 2px solid #1C3312;
+        border-radius: 25px;
+        box-sizing: border-box;
+        font-optical-sizing: auto;
+        text-align: left;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+    }
+    input, textarea {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+    }
+    .join-box{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        flex-grow: 1;
+    }
+    .join-right{
+        position: relative;
+        width: 90%;
+        left: -50px
+
+    } 
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -300,24 +343,36 @@ textarea{
         font-size: 50px;
         line-height: 80px;
     }
-    .contact-box, .join-box, .contact-container {
+    .contact-box, .contact-container {
         flex-direction: column;
         margin-top:120px;
     }
-
-    .contact-left, .contact-right, .join-left, .join-right {
+    .join-box{
+        flex-direction: column;
+        height: 400px;
+    }
+    .contact-left, .contact-right, .join-right {
         padding: 20px;
         flex-basis: 100%;
-        justify-content: center;
-        display:inline-block;
         margin-top:-100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .join-left{
+        padding: 20px;
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .contact-left h3, .join-left h3 {
         font-size: 35px;
         line-height: 45px;
         text-align: center;     
     }
-
     .contact-left h4, .join-left h4 {
         font-size: 20px;
         line-height: 20px;
@@ -328,18 +383,50 @@ textarea{
     }
 
     .contact-left button, .contact-right button, .join-right button {
-        font-size: 14px;
+        position: relative;
+        font-size: 12px;
+    }
+    .contact-left button{
+        width:400px;
+        left: 5%;
+    }
+    #mailicon{
+        position: relative;
+        left:200px
+    }
+    .contact-left p{
+        position: relative;
+        font-size: 10px;
+        left: 100px
     }
 
-    input, textarea {
-        width: 65%;
+    .contact-right button{
+        left: 20%
     }
+    .join-right button{
+        top:-70px;
+        left: 12.5%;
+    }
+    input, textarea {
+        width: 90%;
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
+    .contact-container img{
+        position: relative;
+        width: 89px;
+        height: 72px;
+        top: -50px;
+    }
     .contact-container h1 {
+        position: relative;
         font-size: 40px;
         line-height: 60px;
+        top: -40px;
+
     }
 
     .contact-left h3, .join-left h3 {
@@ -364,7 +451,7 @@ textarea{
     }
     
     input, textarea {
-        width: 50%;
+        width: 89.9%;
     }
 }
 
