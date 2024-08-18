@@ -44,7 +44,7 @@ header::before{
     width: 100%;
     height: 100%;
     background: #fff;
-    
+
 }
 .aboutus-about {
     padding:80px;
@@ -77,7 +77,7 @@ header::before{
 
 
 .mission {
-    z-index:100;
+    z-index:10;
     margin-left: 50px;
     flex-basis: 100%;
     padding: 50px;
@@ -481,112 +481,110 @@ header::before{
     }
 }
 
-@media (max-width: 480px) {
-    .aboutus-about {
-        padding: 10px;
-    }
+@media screen and (max-width: 480px) {
+    .aboutus-about {margin-bottom: 2em;
+        left: 3em;}
+    .aboutus-about img {width: 89px;
+        height: 72px;
+        left: 5em;
+        top: 7em;
+        transform: scale(1.75);}
+    .aboutus-about h1 {font-size: 5em;
+        top:70px;
+        left: 1em;}
 
-    .aboutus-about img {
-        width: 80px;
-        height: 60px;
-        align-items: center;
-    }
-
-    .aboutus-about h1 {
-        font-size: 36px;
-        text-align: center;
-    }
-
-    .mission {
+    .mission {height:250px;
         margin-left: 0;
-        left: 0;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        padding: 10px;
-    }
+        border-radius: 0;
+        padding: 25%;}
+    .mission h2 {font-size: 4em;
+        line-height: 60px;
+        top: -1em;}
+    .mission p {left: 0em;
+        font-size:30px;
+        top: -2em;}
 
-    .mission h2 {
-        font-size: 24px;
-        top: 0;
-    }
+    .motivation {height: auto;
+        width:100%;
+        padding: 25%;}
+    .motivation h2 {font-size: 3em;
+        padding-top: 4em;
+        top: 0.6em;}
+    .motivation p {font-size: 20px;
+        top: 1em;}
 
-    .mission p {
-        font-size: 18px;
-        line-height: 24px;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 0;
-    }
+    .dashed-line img {overflow-x: hidden;}
+    .dashed-line img {position: relative;
+        left: -59em;
+        top: -15em;
+        transform: scale(0.75);}
+    .goal-image {position: relative;
+        transform: scale(0.25);
+        top: -23em;
+        left: 20em;}
 
-    .motivation h2 {
-        font-size: 24px;
-        left: 0;
-        padding-top: 20px;
-        text-align: center;
-    }
+    .goal-text {margin-top: -32em;
+        border-radius: 0;
+        padding: 25%;
+        padding-bottom: 1em;
+        z-index:2;}
+    .goal-text h2 {left: 1em;
+        top: -1em;
+        text-align:left;}
+    .goal-text p {text-align:left;
+        left: 30px;
+        top: -3em;}
 
-    .motivation p {
-        width: 100%;
-        left: 0;
-        padding-left: 5px;
-    }
-
-    .goal {
-        flex-direction: column;
+    .whatwedo {width:100%;
+        padding: 25%;
         margin-top: 0;
-        margin-left: 0;
-    }
-
-    .goal-text {
+        height: auto;}
+    .whatwedo h2 {font-size: 50px;
+        margin-left: 20px;
+        margin-bottom:0px;}
+    .whatwedo p {font-size: 20px;
+        margin-left: 20px;
+        width: 90%;}
+    .whatwedo img {position: relative;
+        margin-left: 0px;
         width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding: 10px;
+        top: -70em;
+        left: -5em;}
+    .about-container {left: 3em;
+    position: relative;
+}
+    .ourstory-text {padding: 0;}
+    .ourstory-text h2 {position: relative;
+        font-size: 40px;
         text-align: center;
-    }
-
-    .goal-text h2,
-    .goal-text p {
-        left: 0;
-        text-align: center;
-    }
-
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .founder-text {
-        margin-left: 0;
-        padding: 10px;
-    }
-
-    .founder-text p {
+        left: 50px;}
+    .ourstory-text p {position: relative;
+        font-size: 18px;
         width: 100%;
-    }
+        top: 300px;
+        left: 50px;}
+    .ourstory-image img {width: 100%;
+        left: -20px;
+        top: -800px;}
 
-    .founder-image img {
-        left: 0;
-        top: 0;
-        padding: 10px;
-    }
-
-    .team-container {
-        margin-left: 0;
-        justify-content: center;
-    }
-    .goal-image{
-        top: 0;
-        left: 0;
-        width: 100%;
-        margin: 10px auto;
-    }
-    .goal-image img{
-        max-width: 73px;
-        max-height: 111px;
-    }
+    .team-container {display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        position: relative;
+        left: 50px;}
+    .team {font-size: 50px;
+        left: 1em;
+        position: relative;
+        margin-top: -201px;-
+        box;
+        margin-top: -5em;}
+    .team h2 {position:relative;
+        left: 1em;
+        top: 1em;}
+    .team img {margin-bottom: 5px;}
+    .team p {font-size: 14px;
+        margin: 0;
+        width:100%;}
 }
 
 /*About Us Ends*/
