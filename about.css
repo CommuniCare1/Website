@@ -482,75 +482,114 @@ header::before{
 }
 
 @media screen and (max-width: 480px) {
-    .aboutus-about {margin-bottom: 2em;
-        left: 3em;}
-    .aboutus-about img {width: 89px;
+    .aboutus-about {
+        margin-bottom: 2em;
+        /* left: -3em; */
+        }
+    .aboutus-about img {
+        width: 89px;
         height: 72px;
-        left: 5em;
-        top: 7em;
-        transform: scale(1.75);}
-    .aboutus-about h1 {font-size: 5em;
-        top:70px;
-        left: 1em;}
+        left: 2em;
+        top: 5em;
+        transform: scale(1.75);
+        }
+    .aboutus-about h1 {
+        font-size: 5em;
+        top: 28px;
+        left: 0.2em;
+        }
 
-    .mission {height:250px;
-        margin-left: 0;
+    .mission {
+        height: 33em;
+        /* margin-left: 0; */
         border-radius: 0;
-        padding: 25%;}
-    .mission h2 {font-size: 4em;
+        padding: 0%;
+        }
+    .mission h2 {
+        font-size: 4em;
         line-height: 60px;
-        top: -1em;}
-    .mission p {left: 0em;
+        top: 1em;
+        }
+    .mission p {
+        left: 0em;
         font-size:30px;
-        top: -2em;}
+        top: 2em;
+        }
 
-    .motivation {height: auto;
+    .motivation {
+        height: auto;
         width:100%;
-        padding: 25%;}
-    .motivation h2 {font-size: 3em;
+        padding: 0%;
+        margin-top: 20em;
+        }
+    .motivation h2 {
+        font-size: 3em;
         padding-top: 4em;
-        top: 0.6em;}
-    .motivation p {font-size: 20px;
-        top: 1em;}
+        top: 2em;
+        }
+    .motivation p {
+        font-size: 20px;
+        top: 4em;
+        width: 81%;
+        left: 2em;
+        padding-bottom: 9em;
+        }
 
-    .dashed-line img {overflow-x: hidden;}
-    .dashed-line img {position: relative;
-        left: -59em;
-        top: -15em;
-        transform: scale(0.75);}
-    .goal-image {position: relative;
+    .dashed-line img {
+        position: relative;
+        left: -61em;
+        top: -19em;
+        transform: scale(0.75);
+        }
+    .goal-image {
+        position: relative;
         transform: scale(0.25);
         top: -23em;
-        left: 20em;}
+        left: 7em;
+        }
 
-    .goal-text {margin-top: -32em;
+    .goal-text {
+        margin-top: -32em;
         border-radius: 0;
-        padding: 25%;
+        padding: 0%;
         padding-bottom: 1em;
-        z-index:2;}
-    .goal-text h2 {left: 1em;
-        top: -1em;
-        text-align:left;}
-    .goal-text p {text-align:left;
+        z-index:2;
+        }
+    .goal-text h2 {
+        top: 0em;
+        left: 1.5em;
+        text-align:left;
+        }
+    .goal-text p {
+        text-align:left;
         left: 30px;
-        top: -3em;}
+        top: -1em;
+        }
 
-    .whatwedo {width:100%;
-        padding: 25%;
+    .whatwedo {
+        width:100%;
+        padding: 0%;
         margin-top: 0;
-        height: auto;}
-    .whatwedo h2 {font-size: 50px;
-        margin-left: 20px;
-        margin-bottom:0px;}
+        height: auto;
+        }
+    .whatwedo h2 {
+        font-size: 50px;
+        margin-left: 1.5em;
+        /* margin-bottom: 0px; */
+        padding-top: 1em;
+        }
     .whatwedo p {font-size: 20px;
         margin-left: 20px;
         width: 90%;}
-    .whatwedo img {position: relative;
+    .whatwedo img {
+        position: relative;
         margin-left: 0px;
         width: 100%;
-        top: -70em;
-        left: -5em;}
-    .about-container {left: 3em;
+        top: -57em;
+        left: -11em;
+        }
+    .about-container {
+    left: -3em;
     position: relative;
 }
     .ourstory-text {padding: 0;}
@@ -567,17 +606,24 @@ header::before{
         left: -20px;
         top: -800px;}
 
-    .team-container {display: grid;
+    .team-container {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
         position: relative;
-        left: 50px;}
-    .team {font-size: 50px;
-        left: 1em;
+        left: 50px;
+        transform: scale(0.75);
+        top: -7em;
+        }
+    .team {
+        font-size: 50px;
+        left: -1em;
         position: relative;
         margin-top: -201px;-
         box;
-        margin-top: -5em;}
+        margin-top: -5em;
+        margin-bottom: -12em;
+        }
     .team h2 {position:relative;
         left: 1em;
         top: 1em;}

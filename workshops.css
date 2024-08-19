@@ -163,47 +163,77 @@ button{display: flex;
 /* Media Queries */
 
 @media screen and (max-width: 480px) {
-    .Workshops-Section {left: -7em;}
-    .Workshops-Section img {top: 3em;
-        left: 26em;
-        display: flex;}
-    .Workshops-Section .collaborateimg {top: 9em;
-        left: 13em;}
-    .Workshops-Section h1 {top: -4.5em;
-        left: 1.5em;
+    .Workshops-Section {left: -12em;}
+    .Workshops-Section img {
+        top: 3em;
+        left: 24em;
+        display: flex;
+        }
+    .Workshops-Section .collaborateimg {
+        top: 7em;
+        left: 12em;
+        }
+    .Workshops-Section h1 {
+        top: -6.5em;
+        left: 1.7em;
         justify-content: center;
-        display: flex;}
-    .Workshops-Section p {top: -7em;
+        display: flex;
+        font-size: 4em;
+        }
+    .Workshops-Section p {
+        top: -7em;
         left: 8em;
-        width: 100%;}
+        width: 80%;
+        }
 
-    .Why-Workshops {margin-top: 7em;}
-    .Why-Workshops h3 {left: 1.6em;
-        font-size: 4em;}
-    .Why-Workshops ul {left: -9em;
+    .Why-Workshops {margin-top: 8em;}
+    .Why-Workshops h3 {
+        left: 0em;
+        font-size: 3em;
+        }
+    .Why-Workshops ul {
+        left: -11em;
         top: -4em;
-        position: relative;}
-    .Why-Workshops li {font-size: 2em;
-        width: 116%;
-        line-height: 1.4em;}
-    .Why-Workshops p {width: 112%;
-        left: -3em;
+        position: relative;
+        }
+    .Why-Workshops li {
+        width: 5;
+        em;
+        width: 90%;
+        line-height: 1.4em;
+        }
+    .Why-Workshops p {
+        width: 80%;
+        left: -4em;
         top: -1em;
         position: relative;
-        font-size: 2em;}
+        font-size: 2em;
+        }
 
-    .FAQ {padding:25%;
-        width:100%;}
-    .FAQ h2 {left: 2em;
-        top: -2em;
-        position: relative;}
-    .FAQ h3 {position: relative;
-        left: 5.5em;
-        top: -1em;}
-    .FAQ ul {top: -6em;
+    .FAQ {
+        padding: 0%;
+        width:100%;
+        margin-bottom: -7em;
+        }
+    .FAQ h2 {
+        left: 6em;
+        top: -1.5em;
         position: relative;
-        left: -2em;}
-    .FAQ li {width: 46%;height: auto;}
+        font-size: 3em;
+        width: 79%;
+        }
+    .FAQ h3 {
+        position: relative;
+        left: 7.5em;
+        top: -1em;
+        font-size: 3em;
+        }
+    .FAQ ul {
+        top: -6em;
+        position: relative;
+        left: 1em;
+        }
+    .FAQ li {width: 38%;height: auto;}
     .FAQ label {height:auto}
     .FAQ ul li .accordion-content p {height: 45em;}
     .FAQ p {height:auto;}
