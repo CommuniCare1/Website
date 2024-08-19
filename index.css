@@ -352,22 +352,237 @@ header::before{
     margin-top:100px;
 }
 /*Home Ends*/
+@media screen and (max-width: 1024px) {
+    .RightHealthcare img{
+        position: relative;
+        top: 85px;
+    }
+    .RightHealthcare h1{
+        position: relative;
+        top: 60px;
+    }
+    .RightHealthcare p{
+        position: relative;
+        top:-5px;
+    }
+    .aboutus-right{
+        position: relative;
+        left: -60px;
 
-@media (max-width: 768px) {
+    }
+    .workshop-left{
+        position: relative;
+        left: 200px;
+    }
+    .workshop-right{
+        position: relative;
+        top: -100px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .RightHealthcare {
+        position: relative;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+    }
+    .RightHealthcare img{
+        position: relative;
+        width: 140px;
+        left: -37%;
+        margin-top: -40px;
+    }
+    .RightHealthcare h1{
+        position: relative;
+        width: auto;
+        height: auto;
+        left: -5%;
+        text-align: left;
+        font-size: 50px;
+        line-height: 1.5;
+        margin-top: 40px;
+
+    }
+    .RightHealthcare p{
+        position: relative;
+        width: auto;
+        height: auto;
+        left: -10%;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
     .aboutus, .workshopstuff {
         flex-direction: column;
-        margin-top:120px;}
+    }
+    .appstuff{
+        flex-direction: column;
+    }
 
-    .aboutus-left, .aboutus-right, .workshop-left, .workshop-right {
-        padding: 20px;
+    .aboutus-left, .aboutus-right, .workshop-left, .workshop-right{
+        padding: 0px;
         flex-basis: 100%;
         justify-content: center;
         display:inline-block;
-        margin-top:-100px;
     }
-    .aboutus-left h3, .workshop-left h3 {
+    .appstuff h3{
+        position: relative;
         font-size: 35px;
-        line-height: 45px;
+        top:-250px;
+    }
+    .appstuff p{
+        position: relative;
+        font-size: 20px;
+        top:-250px;
         text-align: center; 
+        left: -5%;
+    }
+
+    .appstuff button{
+        position: relative;
+        text-align: left;
+        margin-top: -150px;
+        left: 0%;
+    }
+
+    .appstuff img{
+        width: 300px
+    }
+
+    .aboutus {
+        margin-top: -150px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutus-left h2{
+        position: relative;
+        line-height: 45px;
+        text-align: center;
+        margin-top: 120px;
+
+    }
+
+    .aboutus-left{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .aboutus-left p{
+        position: relative;
+        font-size: 27px;
+        text-align: center;
+        justify-content: center;
+        left: 140px;
+    }
+
+    .aboutus-right button{
+        position: relative;
+        font-size: 27px;
+        left: 50px;
+        margin: 0 auto; 
+        margin-top: 250px;
+        display: block; 
+    }
+    .workshop-right h2{
+        margin-top: 70px;
+    }
+    .workshop-left p{
+        position: relative;
+        margin-top: -150px;
+        font-size: 27px;
+        text-align: center;
+        left: -80px;
+
+    }
+    .workshop-left button{
+        position: relative;
+        width: max-content; 
+        font-size: 27px;
+        left: -190px;
+        margin: 0 auto; 
+        display: block; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .RightHealthcare{
+        height: 500px
+    }
+    .RightHealthcare img{
+        position: relative;
+        width: 74px;
+        height: 59px;
+    }
+    .RightHealthcare h1{
+        position: relative;
+        font-size: 36px;    
+    }
+    .RightHealthcare p{
+        position: relative;
+        font-size: 20px;    
+    }
+    .appstuff h3{
+        position: relative;
+        font-size: 20px;
+    }
+    .appstuff p{
+        position: relative;
+        font-size: 17.75px;
+    }
+    .appstuff button{
+        position: relative;
+        font-size: 17.75px;
+    }
+    .appstuff img{
+        position: relative;
+        width: 214px;
+        height: 129.89;
+    }
+    .aboutus-left h2{
+        position: relative;
+        font-size: 36px;
+    }
+    .aboutus{
+        height: 480px;
+    }
+    .aboutus-left p{
+        position: relative;
+        font-size: 18px;
+        left: 80px;
+
+    }
+    .aboutus-right button{
+        position: relative;
+        font-size: 23.1px;
+        width:203px;
+    }
+    .workshopstuff{
+        position: relative;
+        height:379px;
+    }
+    .workshop-right h2{
+        position: relative;
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+    .workshop-left p{
+        position: relative;
+        font-size: 18px;
+        left: -130px;
+        margin-top: -100px;
+        color: #FFFFFF;
+    }
+    .workshop-left button{
+        position: relative;
+        font-size: 15px;
+        width: max-content;
+        height: 70px;
+        text-align: center;
+        color: #FFFFFF;
     }
 }

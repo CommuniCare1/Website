@@ -239,7 +239,7 @@ textarea{
         margin-top:150px;
         width: 100%;
     }
-
+    
     .contact-left, .contact-right {
         position:relative;
         padding: 50px;
@@ -284,7 +284,6 @@ textarea{
     
     .contact-right button {
         position:relative;
-        font-size: 24px;
         left: 20px;
         top: -10px;
         
@@ -383,9 +382,9 @@ textarea{
         font-size: 18px;
     }
 
-    .contact-left button, .contact-right button, .join-right button {
+    .contact-left button, .join-right button {
         position: relative;
-        font-size: 12px;
+        font-size: 24px;
     }
     .contact-left button{
         width:400px;
@@ -393,7 +392,7 @@ textarea{
     }
     #mailicon{
         position: relative;
-        left:200px
+        left:200px;
     }
     #email p{
         position: relative;
@@ -402,6 +401,7 @@ textarea{
     }
 
     .contact-right button{
+        position: relative;
         left: 20%
     }
     .join-right button{
@@ -416,6 +416,16 @@ textarea{
 }
 
 @media screen and (max-width: 480px) {
+    .contact-container{
+        width: 100%;
+    }
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .contact-container img{
         position: relative;
         width: 89px;
@@ -424,25 +434,28 @@ textarea{
     }
     .contact-container h1 {
         position: relative;
-        font-size: 40px;
+        font-size: 48px;
         line-height: 60px;
         top: -40px;
+        left: -10px;
 
     }
 
     .contact-left h3, .join-left h3 {
-        font-size: 30px;
+        font-size: 36px;
         line-height: 40px;
     }
 
     .contact-left h3{
         position: relative;
         top: -90px;
-        font-size: 25px;
+        font-size: 32px;
+        left: 25px;
+
     }
     
     .contact-left h4, .join-left h4 {
-        font-size: 12px;
+        font-size: 18px;
         line-height: 18px;
         text-align: center;
         top: -40px;
@@ -450,21 +463,30 @@ textarea{
     .contact-left h4{
         position: relative;
         top: -125px;
+        font-size: 20px;
+        left: 25px;
     }
 
     .contact-right button, .join-right button {
+        position: relative;
         width: 200px;
         height: 70px;
-        font-size: 12px;
     }
     .contact-left button{
         position: relative;
         top: -160px;
-        width: 400px;
+        width: 319px;
+        height: 85.53px;
+        font-size: inherit;
+        display: flex;
+    }
+    .contact-left button{
+        position: relative;
+        align-items: left;
+        padding-left: -1px;
     }
     .contact-left p{
         position: relative;
-        font-size: x-small;
     }
     input{
         padding: 35px 40px;
@@ -475,6 +497,12 @@ textarea{
     }
     input, textarea {
         width: 89.9%;
+    }
+    #mailicon{
+        position: relative;
+    }
+    .contact-left button a {
+        font-size: 14.09px; 
     }
 }
 
