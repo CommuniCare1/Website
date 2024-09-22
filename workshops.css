@@ -11,7 +11,8 @@ body {margin: 0;
     text-align: center;
     align-items: center;}
 
-button{display: flex;
+button{
+    display: flex;
     align-items: center;
     background: #CAE4C5;
     font-family: "Open Sans", sans-serif;
@@ -198,7 +199,6 @@ button{display: flex;
         }
     .Why-Workshops li {
         width: 5;
-        em;
         width: 90%;
         line-height: 1.4em;
         }

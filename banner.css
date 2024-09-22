@@ -11,6 +11,8 @@ body {
         "wdth" 100;
     text-align: center;
     align-items: center;
+    height: 100vh;
+    background: inherit;
 }
 
 button{
@@ -36,6 +38,7 @@ button{
 }
 
 /*Header/Navigation Bar Starts*/ /*ALMOST DONE JUST NEED MEDIA!!*/
+
 header {
     position: fixed;
     display:block;
@@ -107,7 +110,7 @@ header button:active {
     animation-name: dissolve;
 }
 
-header label{
+.icons{
     position: relative;
     font-size: 2.8rem;
     color: #1C3312;
@@ -119,9 +122,10 @@ header label{
 header #check{
     display:none
 }
+
 /* Media Queries */
 
-@media screen and (max-width: 1226px) {
+@media screen and (max-width: 1199px) {
     header {
         padding: 1.3rem 5%;
     }
@@ -134,9 +138,8 @@ header #check{
 
     .icons{
         display: inline-flex;
-        top: -38%;
         left: 30%;
-
+        bottom: 0%;
     }
     #menu-icon {
         display: block;
@@ -161,6 +164,7 @@ header #check{
         height: 0;
         background: rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(50px);
+        overflow: hidden;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
         background-color: rgba(255, 255, 255, 1);
         transition: .3s ease;
@@ -231,32 +235,41 @@ header #check{
 }
 
 @media screen and (max-width: 480px) {
-    header {padding: 0%;
-        width: 77%;}
+    header {
+        padding: 0%;
+        width: 63%;
+        height: 17%;
+    }
 
-    header img {margin-bottom: 10px;
+    header image {
+        margin-bottom: 10px;
         left: -4em;
-        top: 1em;}
+        top: 1em;
+    }
 
-    header button {width: 130px;
+    header button {
+        width: 130px;
         font-size: 14px;
         margin: 0.5rem auto;
-        display: block;}
+        display: block;
+    }
 
     header label {font-size: 2rem;
         top: -1.5em;
-        left: 5em;}
+        left: 5em;
+    }
 
-    header nav.navbar {
+    header .navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #fff; /* Adjust based on your design */
+        background-color: #fff;
         position: absolute;
-        top: 4rem; /* Adjust based on your header height */
+        top: 4rem; 
         right: 0;
         width: 100%;
-        display: none; /* Hide by default */}
+        display: none;
+    }
+}
 
 /* Header/Navigation Bar Ends */
-    }

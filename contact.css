@@ -1,4 +1,5 @@
-body {margin: 0;
+body {
+    margin: 0;
     padding: 0;
     padding-top: 150px;
     box-sizing: border-box;
@@ -9,13 +10,34 @@ body {margin: 0;
     font-variation-settings:
         "wdth" 100;
     text-align: center;
-    align-items: center;}
+    align-items: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background: #CAE4C5;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+    font-variation-settings:"wdth" 100;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50px;
+    width: 160px;
+    color: #1C3312;
+    height: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
 
 
 /*Contact Starts*/
-header{
-    padding: 1.3rem 5%;
-}
+
 .contact-container{
     width: 100%;
     color:#1C3312;
@@ -230,9 +252,6 @@ textarea{
 
 /* Media Queries */
 @media screen and (max-width: 1107px) {
-    header {
-        padding: 1.3rem 5%;
-    }
 
     .contact-box {
         flex-direction: column;
