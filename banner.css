@@ -108,7 +108,7 @@ header button:active {
 }
 
 header label{
-    position: relative; 
+    position: relative;
     font-size: 2.8rem;
     color: #1C3312;
     cursor: pointer;
@@ -231,35 +231,32 @@ header #check{
 }
 
 @media screen and (max-width: 480px) {
-    header {
-        padding: 0.5rem 2%;
-        flex-direction: column;
-        height: auto;
-    }
+    header {padding: 0%;
+        width: 77%;}
 
-    header img {
-        margin-bottom: 10px;
-        left: 0;
-    }
+    header img {margin-bottom: 10px;
+        left: -4em;
+        top: 1em;}
 
-    header nav a {
-        font-size: 16px;
-        margin: 0.5rem 0;
-        text-align: center;
-        display: block;
-    }
-
-    header button {
-        width: 130px;
+    header button {width: 130px;
         font-size: 14px;
         margin: 0.5rem auto;
-        display: block;
-    }
+        display: block;}
 
-    header label {
-        font-size: 2rem;
-        top: -120px;
-        right: -20%;
-    }
-}
+    header label {font-size: 2rem;
+        top: -1.5em;
+        left: 5em;}
+
+    header nav.navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff; /* Adjust based on your design */
+        position: absolute;
+        top: 4rem; /* Adjust based on your header height */
+        right: 0;
+        width: 100%;
+        display: none; /* Hide by default */}
+
 /* Header/Navigation Bar Ends */
+    }
