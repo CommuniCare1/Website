@@ -82,9 +82,7 @@ header::after{
     max-width: 800px;
     width: 100%;
 }
-.mission h2{
-    color: #CAE4C5;
-}
+
 .mission {
     position: absolute;
     font-family: "Domine", serif;
@@ -115,7 +113,7 @@ header::after{
     line-height: 40px;
     width:90%;
     left:40px;
-    top:-60px;
+    top:-50px;
 }
 
 .motivation {
@@ -164,18 +162,22 @@ header::after{
     display: flex;
     position: relative;
     opacity: 0px;
-    margin-top:-300px;
+    margin-top:-400px;
     margin-left: 100px;
 }
 .goal-image{
     flex-basis: 60%;
-    padding: 0px 60px;}
+    padding: 0px 60px;
+}
+.goal .goal-image {
+    top: 50px
+}
 
 .goal-text{
     flex-basis: 100%;
     margin-left: 150px;
     flex-basis: 100%;
-    padding: 50px;
+    padding: 100px;
     text-align: left;
     border-radius: 70px;
     position:relative;
@@ -202,12 +204,15 @@ header::after{
     position:relative;
     left:50px;}
 
-.whatwedo {background-color: rgba(191, 209, 229, 1);
+.whatwedo {
+    background-color: rgba(191, 209, 229, 1);
     color:rgba(8, 51, 88, 1);
     height:800px;
     padding-top:300px;
+    padding-bottom: 500px;
     margin-top:-355px;
-    font-family: "Domine", serif;}
+    font-family: "Domine", serif;
+}
 .whatwedo h2 {
     font-size: 64px;
     font-weight: 700;
@@ -221,22 +226,26 @@ header::after{
     text-align: left;
     width:80%;
     margin-left:130px;}
-.whatwedo img {margin-left:765px;
+.whatwedo img {
+    margin-left:765px;
     margin-top:-489px;
-    transform: scale(1.12);}
+    transform: scale(1.12);
+}
 
 .about-container {
     display: flex;
     align-items: center;
     max-width: 1200px;
     padding: 20px;
-    gap: 20px;}
+    gap: 20px;
+}
 .ourstory-text{
     flex-basis: 60%;
     padding: 40px 60px;
 
 }
-.ourstory-text p{font-family: "Open Sans", sans-serif;
+.ourstory-text p{
+    font-family: "Open Sans", sans-serif;
     font-weight: 100;
     font-style:normal;
     text-align: left;
@@ -507,7 +516,7 @@ header::after{
     .mission p {
         left: 0em;
         font-size:30px;
-        top: 2em;
+        top: 1em;
         }
 
     .motivation {

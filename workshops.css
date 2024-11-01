@@ -261,7 +261,7 @@ button{
         left: 1em;
         }
     .FAQ li {
-        width: 27.5%;height: auto;
+        width: 33.5%;height: auto;
     }
     .FAQ li label {
         height:auto;
@@ -305,6 +305,9 @@ button{
         font-size: 20px;
         top: -350px;
         margin-bottom: 5px;
+    }
+    .FAQ li {
+        width: 27.5%;height: auto;
     }
     
 }
