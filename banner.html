@@ -13,7 +13,7 @@
             <div class="navbar">
                 <div class="logo">
                     <img class="leaf"src="images/Brand/Logo.svg"/>
-                    <img src="images/Brand/Logo text.svg"/>
+                    <img class="brand" src="images/Brand/Logo text.svg"/>
                 </div>
                 <ul class="links">
                     <li><a href="index.html">Home</a></li>
@@ -38,19 +38,18 @@
         </header>
 
         <script>
-            const toggleBtn = document.querySelector('.toggle_btn')
-            const toggleBtnIcon = document.querySelector('.toggle_btn i')
-            const dropDownMenu = document.querySelector('.dropdown_menu')
+            const toggleBtn = document.querySelector('.toggle_btn');
+            const toggleBtnIcon = document.querySelector('.toggle_btn i');
+            const dropDownMenu = document.querySelector('.dropdown_menu');
 
             toggleBtn.onclick = function(){
-                dropDownMenu.classList.toggle('open')
-                const isOpen = dropDownMenu.classList.contains('open')
+                dropDownMenu.classList.toggle('open');
+                const isOpen = dropDownMenu.classList.contains('open');
 
                 toggleBtnIcon.classList = isOpen
                  ? 'bx bx-x'
-                 :'bx bx-menu'
+                 :'bx bx-menu';
             }
-
         </script>
     </body>
 </html>

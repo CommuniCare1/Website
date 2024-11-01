@@ -40,6 +40,10 @@ button{
 header{
     background-color: #EBFAE7;  
 }
+header::after{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
 .RightHealthcare, .appstuff, .aboutus {
     display: flex;
     flex-direction: column;
@@ -418,7 +422,7 @@ header{
     .appstuff h3{
         position: relative;
         font-size: 35px;
-        top:-250px;
+        top:-220px;
     }
     .appstuff p{
         position: relative;
@@ -432,7 +436,7 @@ header{
         position: relative;
         text-align: left;
         margin-top: -150px;
-        left: 0%;
+        left: 20px;
     }
 
     .appstuff img{
@@ -517,10 +521,16 @@ header{
     .appstuff h3{
         position: relative;
         font-size: 20px;
+        margin-top: 180px;
+    }
+    .ap {
+        margin-top: 0px;
+        align-items: center;
     }
     .appstuff p{
         position: relative;
         font-size: 17.75px;
+
     }
     .appstuff button{
         position: relative;
@@ -530,6 +540,7 @@ header{
         position: relative;
         width: 214px;
         height: 129.89;
+        top: 20px;
     }
     .aboutus-left h2{
         position: relative;
@@ -540,8 +551,9 @@ header{
     }
     .aboutus-left p{
         position: relative;
-        font-size: 18px;
+        font-size: 1.125rem;
         left: 80px;
+        line-height: 25.31px;
 
     }
     .aboutus-right button{
@@ -574,3 +586,4 @@ header{
         color: #FFFFFF;
     }
 }
+

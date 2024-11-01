@@ -89,6 +89,9 @@ a:hover{
     cursor: pointer;
     display: none;
    }
+   .toggle_btn {
+    position: relative;
+   }
    
    .action_btn {
     background-color: #CAE4C5;
@@ -124,13 +127,38 @@ a:hover{
     .dropdown_menu{
         display: block;
     }
+    .header {
+        padding: 0 2rem;
+    }
 }
     @media (max-width: 576px) {
-        .dropdown_menu{
-            left: 2rem;
-            width: unset;
+    
+        header {
+            padding: 0 2rem;
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
         }
+        
+        .dropdown_menu {
+            left: 2rem;
+            width: calc(100% - 4rem);
+            top: 120px;
+        }
+        
+        .navbar .logo .leaf {
+            width: 3rem;
+            height: 4.5rem;
+        }
+        .brand {
+            width: 12rem;
+            height: 12rem;
+        }
+        .leaf {
+            top: -60px;
+        }
+
     }
+
 
 
 /* Header/Navigation Bar Ends */
