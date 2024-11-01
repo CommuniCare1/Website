@@ -43,7 +43,8 @@ footer {position:relative;
     display:block;
     color:rgba(28, 51, 18, 1);
     background-size: auto;
-    overflow: hidden;}
+    overflow: hidden;
+    padding-top: 60px;}
 footer h4 {font-family: sans-serif;
     font-size: 49.63px;
     color:rgba(28, 51, 18, 1);
@@ -65,7 +66,7 @@ footer nav a {color: rgba(28, 51, 18, 1);
     display: block;
     text-decoration: none;
     position: relative;
-    top:-170px;
+    top:-100px;
     left: 50px;}
 footer nav a:hover {color: rgba(235, 250, 231, 1);
     transition: all 0.3s ease;}
@@ -76,7 +77,7 @@ footer nav a:hover {color: rgba(235, 250, 231, 1);
     display:inline-block;
     background-color: inherit;
     flex-grow: 1;
-    top: -180px;
+    top: -110px;
     left:-20px;
     margin:50px;
     font-size:18px;
@@ -89,7 +90,7 @@ footer nav a:hover {color: rgba(235, 250, 231, 1);
     animation-name: dissolve;}
 
 .FooterImg {position:relative;
-    top:-260px;
+    top:-190px;
     left:180px;}
 
 .InstallApp {position:relative;
@@ -101,14 +102,14 @@ footer nav a:hover {color: rgba(235, 250, 231, 1);
     display:inline-block;
     flex-grow: 1;
     margin:40px;
-    top:-210px;
+    top:-110px;
     left:-120px;
     transition: all 0.3s ease;}
 .InstallApp:hover {background-color:rgba(202, 228, 197, 1);
     border: 1px solid rgba(202, 228, 197, 1);
     color:white;}
 footer p {position:relative;
-    top:-250px;
+    top:-245px;
     right:190px;
     font-family: Open Sans;
     font-size: 12px;
