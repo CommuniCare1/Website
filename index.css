@@ -38,7 +38,7 @@ button{
 
 /*Home Starts*/
 header{
-    background-color: #EBFAE7;  
+    background-color: #EBFAE7;
 }
 header::after{
     backdrop-filter: blur(10px);
@@ -59,7 +59,6 @@ header::after{
 
 .intro, .RightHealthcare {
     background-color: rgba(235, 250, 231, 1);
-
 }
 .RightHealthcare{
     width: 100%;
@@ -103,7 +102,7 @@ header::after{
     background-color: #FFFFFF;
     width: 100%;
     position: relative;
-    margin-top: 0;  
+    margin-top: 0;
 }
 
 .appstuff h3 {
@@ -121,8 +120,8 @@ header::after{
     font-size: 30px;
     font-weight: lighter;
     margin: 10px 0;
-    position: static;  
-    left: auto;  
+    position: static;
+    left: auto;
 }
 
 
@@ -130,7 +129,7 @@ header::after{
     max-width: 100%;
     height: auto;
     margin-top: -60px;
-    position: relative;  
+    position: relative;
     top: 150px;
 }
 
@@ -175,15 +174,16 @@ header::after{
     padding: 40px 60px;
     color: #FFFFFF;
     font-family: "Open Sans", sans-serif;
-    height: 31.25rem; 
+    height: 31.25rem;
     margin: 0;
-    text-align: left; 
+    text-align: left;
     box-sizing: border-box;
 }
 
 .aboutus {
     background-color: rgba(49, 90, 32, 1);
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-top: 100px;
 }
 
 .workshopstuff {
@@ -207,7 +207,7 @@ header::after{
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 30px;
-    width: 50%; 
+    width: 50%;
     text-align: left;
 }
 
@@ -428,7 +428,7 @@ header::after{
         position: relative;
         font-size: 20px;
         top:-250px;
-        text-align: center; 
+        text-align: center;
         left: -5%;
     }
 
@@ -476,9 +476,9 @@ header::after{
         position: relative;
         font-size: 27px;
         left: 50px;
-        margin: 0 auto; 
+        margin: 0 auto;
         margin-top: 250px;
-        display: block; 
+        display: block;
     }
     .workshop-right h2{
         margin-top: 70px;
@@ -493,11 +493,11 @@ header::after{
     }
     .workshop-left button{
         position: relative;
-        width: max-content; 
+        width: max-content;
         font-size: 27px;
         left: -190px;
-        margin: 0 auto; 
-        display: block; 
+        margin: 0 auto;
+        display: block;
     }
 }
 
@@ -512,11 +512,11 @@ header::after{
     }
     .RightHealthcare h1{
         position: relative;
-        font-size: 36px;    
+        font-size: 36px;
     }
     .RightHealthcare p{
         position: relative;
-        font-size: 20px;    
+        font-size: 20px;
     }
     .appstuff h3{
         position: relative;
@@ -586,4 +586,3 @@ header::after{
         color: #FFFFFF;
     }
 }
-

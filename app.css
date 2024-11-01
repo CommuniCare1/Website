@@ -55,14 +55,15 @@ button{
     margin-top: -150px;
     margin-left: 130px;
     font-size: 64px;
+    top:-40px;
 }
 
 .blueleaf {
     position: relative;
-    top: -140px;
-    left:1100px;
-    display:flex;
-}
+    top: -130px;
+    left:1150px;
+    display:flex;}
+    
 .h1-box{
     width:100%;
 }
@@ -286,7 +287,6 @@ button{
         font-size: 1rem;
     }
 }
-
 
 @media screen and (max-width: 480px) {
     .meet-app {

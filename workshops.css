@@ -33,24 +33,24 @@ button{
     transition: all 0.3s ease;
     }
 
-.Workshops-Section {margin-top:50px;
+.Workshops-Section {margin-top:20px;
     font-family: sans-serif;
     height:auto;
-    margin-bottom:-300px;
+    margin-bottom:-200px;
     top:-30px;
     position:relative;}
 
 .Workshops-Section img {transform:scale(1.5);
     position:relative;
-    top:-230px;
+    top:-220px;
     left:-50px;}
 .Workshops-Section .collaborateimg {position:relative;
     transform: scale(0.85);
     left:250px;
-    top:0px;}
+    top:10px;}
 .Workshops-Section h1 {color: rgba(12, 74, 127, 1);
     position:relative;
-    top:-300px;
+    top:-220px;
     margin-left: 200px;
     font-size: 96px;
     font-weight: 800;
@@ -63,10 +63,11 @@ button{
     width:68%;
     line-height: 43.58px;
     text-align: left;
-    top:-350px;
+    top:-200px;
     left:200px;}
 
-.Why-Workshops {justify-content: center;}
+.Why-Workshops {justify-content: center;
+    margin-top: 100px;}
 .Why-Workshops h3 {color:rgba(12, 74, 127, 1);
     font-size: 48px;
     font-weight: 800;
@@ -80,7 +81,7 @@ button{
     width:73%;
     position:relative;
     top:50px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left:200px;}
 .Why-Workshops p {font-size: 32px;
     font-weight: 100;
@@ -113,7 +114,7 @@ button{
     line-height: 72.96px;
     text-align: center;
     margin-left:-700px;
-    margin-top:-50px;}
+    margin-top:40px;}
 .FAQ ul {margin: 100px auto;
     width: 1100px;
     padding: 0;
