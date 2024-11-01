@@ -74,7 +74,9 @@ button{
     line-height: 65.37px;
     position:relative;
     left:-240px;}
-.Why-Workshops li {font-size: 32px;
+
+.Why-Workshops li {
+    font-size: 32px;
     font-weight: 100;
     line-height: 43.58px;
     text-align: left;
@@ -82,7 +84,8 @@ button{
     position:relative;
     top:50px;
     margin-top: 30px;
-    margin-left:200px;}
+    margin-left:200px;
+}
 .Why-Workshops p {font-size: 32px;
     font-weight: 100;
     line-height: 43.58px;
@@ -96,29 +99,37 @@ button{
     text-align: center;
     margin-top:100px;}
 
-.FAQ {margin-top:100px;
+.FAQ {
+    margin-top:100px;
     background-color: rgba(191, 209, 229, 1);
-    padding-bottom: 50px;}
-.FAQ h2 {color: rgba(12, 74, 127, 1);
+    padding-bottom: 50px;
+}
+.FAQ h2 {
+    color: rgba(12, 74, 127, 1);
     font-family:serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 72.96px;
     text-align: center;
     margin-left:-240px;
-    padding-top:100px;}
-.FAQ h3 {color:rgba(103, 138, 168, 1);
+    padding-top:100px;
+}
+.FAQ h3 {
+    color:rgba(103, 138, 168, 1);
     font-family:serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 72.96px;
     text-align: center;
     margin-left:-700px;
-    margin-top:40px;}
-.FAQ ul {margin: 100px auto;
+    margin-top:40px;
+}
+.FAQ ul {
+    margin: 100px auto;
     width: 1100px;
     padding: 0;
-    list-style: none;}
+    list-style: none;
+}
 .FAQ li {margin-bottom: 10px;
     border-bottom: 2px solid rgba(0, 0, 0, 1);
     background: inherit;
@@ -165,51 +176,66 @@ button{
 /* Media Queries */
 
 @media screen and (max-width: 480px) {
-    .Workshops-Section {left: -12em;}
-    .Workshops-Section img {
-        top: 3em;
-        left: 24em;
-        display: flex;
-        }
+    .Workshops-Section {
+        left: -12em;
+    }
+    .Workshops-Section .brand_img {
+        left: 22.5em;
+        display: inline-block;
+        width: 89px;
+        height: 72px;
+        margin-top: 11em;
+        margin-bottom: 5em;
+    }
     .Workshops-Section .collaborateimg {
-        top: 7em;
-        left: 12em;
-        }
+        left: 9em;
+        width: 294px;
+        height: 272px;
+    }
     .Workshops-Section h1 {
-        top: -6.5em;
         left: 1.7em;
         justify-content: center;
         display: flex;
-        font-size: 4em;
+        font-size: 3em;
+        margin-top: -2em;
         }
     .Workshops-Section p {
-        top: -7em;
-        left: 8em;
+        margin-top: 5em;
+        left: 12em;
         width: 80%;
-        }
+        font-size: 20px;
+    }
 
     .Why-Workshops {margin-top: 8em;}
     .Why-Workshops h3 {
         left: 0em;
-        font-size: 3em;
+        font-size: 2.25em;
         }
     .Why-Workshops ul {
         left: -11em;
         top: -4em;
         position: relative;
         }
-    .Why-Workshops li {
+    .Why-Workshops ul li {
         width: 5;
         width: 90%;
         line-height: 1.4em;
+        font-size: 1.25em;
         }
-    .Why-Workshops p {
+    .Why-Workshops .info {
         width: 80%;
-        left: -4em;
-        top: -1em;
+        left: -9em;
+        margin-top: 1em;
+        position: relative;
+        font-size: 1.25em;
+        }
+    .Why-Workshops .TBC {
+        width: 80%;
+        left: -5em;
+        margin-top: 1em;
         position: relative;
         font-size: 2em;
-        }
+    }
 
     .FAQ {
         padding: 0%;
@@ -234,9 +260,51 @@ button{
         position: relative;
         left: 1em;
         }
-    .FAQ li {width: 38%;height: auto;}
-    .FAQ label {height:auto}
-    .FAQ ul li .accordion-content p {height: 45em;}
-    .FAQ p {height:auto;}
-    .FAQ input {height:auto;}
+    .FAQ li {
+        width: 27.5%;height: auto;
     }
+    .FAQ li label {
+        height:auto;
+        font-size: 1em;
+    }
+    .FAQ ul li .accordion-content p {
+        height:auto;
+        font-size: 0.6em;
+        display: flexbox;
+    }
+    .FAQ input {height:auto;}
+    
+}
+@media screen and (max-width: 387px) {
+    .Workshops-Section {
+        left: -12em;
+    }
+    .Workshops-Section .brand_img {
+        left: 12em;
+        display: inline-block;
+        width: 89px;
+        height: 72px;
+        margin-top: 14em;
+    }
+    .Workshops-Section .collaborateimg {
+        left: 9em;
+        width: 294px;
+        height: 272px;
+        top: -150px;
+    }
+    .Workshops-Section h1 {
+        left: 1.7em;
+        justify-content: center;
+        display: flex;
+        font-size: 3em;
+        top: -450px;
+        }
+    .Workshops-Section p {
+        left: 12em;
+        width: 80%;
+        font-size: 20px;
+        top: -350px;
+        margin-bottom: 5px;
+    }
+    
+}
