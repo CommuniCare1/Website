@@ -130,6 +130,9 @@ a:hover{
     .header {
         padding: 0 2rem;
     }
+    .dropdown_menu .action_btn{
+        background: inherit;
+    }
 }
     @media (max-width: 576px) {
 
@@ -155,6 +158,9 @@ a:hover{
         }
         .leaf {
             top: -60px;
+        }
+        .dropdown_menu .action_btn{
+            background: inherit;
         }
 
     }

@@ -116,7 +116,10 @@ footer p {position:relative;
     font-weight: 600;
     line-height: 16.34px;
     text-align: right;
-    color:rgba(28, 51, 18, 1);}
+    color:#1c3312;}
+.heart_leaf, .Line{
+    display: none;
+}
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
@@ -124,7 +127,9 @@ footer p {position:relative;
         height: auto;
         padding: 20px;
     }
-
+    .heart_leaf, .Line{
+        display: none;
+    }
     footer h4 {
         font-size: 40px;
         margin-left: 0;
@@ -183,46 +188,59 @@ footer p {position:relative;
 
 @media screen and (max-width: 480px){
 
-    footer {height: 61em;
+    footer {
+        height: 61em;
         padding: 0%;
-        width:100%;}
+        width:100%;
+    }
 
     .FooterImg {
-        top: -42em;
-        width: 100%;
-        transform: scale(0.85);
+        display: none;
     }
+
+    .heart_leaf {
+        display: inline-block;
+        margin-top: 5rem;
+        align-items: center;
+    }
+
     footer h4 {
-        font-size: 38px;
+        font-size: 32px;
         position: relative;
-        top: 3em;
         left: -1em;
         width: 126%;
     }
     .Join {
         width: 260px;
         height: 70px;
-        font-size: 25px;
+        font-size: 25.36px;
         position: relative;
-        top: 87px;
         transform: scale(1.25);
         margin: 20px;
+    }
+    .Line {
+        display: inline-block;
+        margin-top: 2rem;
+        align-items: center;
     }
 
     footer nav {
         transform: scale(2);
-        margin-top: 167px;
+        margin-top: 70px;
+
     }
-    footer nav a {font-size: 16px;
-        margin: 10px 0;}
+    footer nav a {
+        font-size: 16px;
+        margin: 10px 0;
+    }
     .InstallApp {
         transform: scale(2);
-        top: -91px;
+        margin-top: 90px;
         margin-bottom: 30px;
     }
     footer p {
-        margin-top: 12em;
-        font-size: 16px;
+        margin-top: 17rem;
+        font-size: 12px;
         width: 130%;
         left: 3em;
         display:flex;
