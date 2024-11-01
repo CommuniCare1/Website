@@ -242,8 +242,8 @@ footer p {position:relative;
         margin-top: 17rem;
         font-size: 12px;
         width: 130%;
-        left: 5em;
-        display:flex;
+        left: -15em;
+        display:inline-block;
     }
 /* Footer Ends */
 }
