@@ -71,29 +71,17 @@ header::after{
 
 
 .mission {
-    z-index:10;
-    margin-left: 50px;
-    flex-basis: 100%;
-    padding: 50px;
-    text-align: center;
-    border-radius: 8px;
-    background: #315A20;
-    margin-bottom: 40px;
-    max-width: 800px;
-    width: 100%;
-}
-
-.mission {
     position: absolute;
     font-family: "Domine", serif;
     background: #315A20;
-    width: 800px;
-    height: 300px;
+    width: 1000px;
+    height: 492px;
     left: 250px;
     gap: 0px;
     border-radius: 70px 70px 70px 70px;
     opacity: 0px;
 }
+
 .mission h2{
     position:relative;
     color: #CAE4C5;
@@ -101,25 +89,30 @@ header::after{
     font-size: 60px;
     font-weight: 700;
     line-height: 89.6px;
-    top:-30px;
+    top:40px;
+    font-family: "Domine", serif;
 }
+
 .mission p{
     position:relative;
     color: #CAE4C5;
-    font-weight:lighter;
+    font-weight: lighter;
     font-style:normal;
-    font-size: 30px;
+    font-size: 36px;
     font-optical-sizing: auto;
-    line-height: 40px;
     width:90%;
     left:40px;
-    top:-50px;
+    top:60px;
+    font-family: "Domine", serif;
+    display: flex;
+    line-height: 50.63px;
+    text-overflow: unset;
 }
 
 .motivation {
-    margin-top:200px;
+    margin-top:100px;
     overflow: hidden;
-    height:1400px; /*change background height as needed*/
+    height:1800px; 
     background: #CAE4C5;
     color:rgba(28, 51, 18, 1);
     text-align: left;
@@ -132,7 +125,7 @@ header::after{
     font-weight: 700;
     font-style: normal;
     font-size: 70px;
-    top: 100px;
+    top: 350px;
     left:150px;
     padding-top: 200px;
 }
@@ -145,15 +138,15 @@ header::after{
     padding-left: 30px;
     width:81%;
     position:relative;
-    top:200px;
+    top:500px;
     left:170px;
 }
 .dashed-line img {
     position:relative;
     overflow: hidden;
     display: flex;
-    margin-top:-1400px;
-    left:-200px;
+    margin-top:-1600px;
+    left:-150px;
     width:auto;
     height:1500px;
 }
@@ -182,7 +175,7 @@ header::after{
     border-radius: 70px;
     position:relative;
     left:-50px;
-    background-color: rgba(8, 51, 88, 1);
+    background-color: #083358
 }
 .goal-text h2{
     color: #BFD1E5;
@@ -209,9 +202,9 @@ header::after{
     color:rgba(8, 51, 88, 1);
     height:800px;
     padding-top:300px;
-    padding-bottom: 500px;
     margin-top:-355px;
     font-family: "Domine", serif;
+    height: 1036px;
 }
 .whatwedo h2 {
     font-size: 64px;
@@ -230,6 +223,7 @@ header::after{
     margin-left:765px;
     margin-top:-489px;
     transform: scale(1.12);
+    color: #083358;
 }
 
 .about-container {
