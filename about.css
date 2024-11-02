@@ -141,6 +141,15 @@ header::after{
     top:500px;
     left:170px;
 }
+.motivation .heart-leafs {
+    display:none;
+    width: 56px;
+    height: 84px;
+    align-self: left;
+    position: relative;
+    
+}
+
 .dashed-line img {
     position:relative;
     overflow: hidden;
@@ -484,33 +493,36 @@ header::after{
     .aboutus-about {
         margin-bottom: 2em;
         }
-    .aboutus-about img {
+    .aboutus-about .heart {
         width: 89px;
         height: 72px;
-        left: 2em;
-        top: 5em;
+        left: 9em;
+        top: 1em;
         transform: scale(1.75);
         }
     .aboutus-about h1 {
         font-size: 5em;
-        top: 28px;
-        left: 0.2em;
-        }
-
+        top: 90px;
+        left: -0.7em;
+        font-size: 48px;
+        text-align: center;
+    }
     .mission {
-        height: 33em;
+        height: 280px;
         border-radius: 0;
         padding: 0%;
+        margin-top: 60px;
         }
     .mission h2 {
         font-size: 4em;
         line-height: 60px;
         top: 1em;
+        font-size: 36px;
         }
     .mission p {
         left: 0em;
-        font-size:30px;
-        top: 1em;
+        font-size:18px;
+        top: 3em;
         }
 
     .motivation {
@@ -518,32 +530,42 @@ header::after{
         width:100%;
         padding: 0%;
         margin-top: 20em;
+        height: 1400px;
         }
     .motivation h2 {
-        font-size: 3em;
+        font-size: 2em;
         padding-top: 4em;
-        top: 2em;
+        top: -1em;
         }
     .motivation p {
-        font-size: 20px;
-        top: 4em;
+        font-size: 1em;
+        top: 0em;
         width: 81%;
         left: 2em;
-        padding-bottom: 9em;
+        padding-bottom: 7em;
         }
-
+    
     .dashed-line img {
         position: relative;
-        left: -61em;
-        top: -19em;
+        left: -40em;
+        top: -18em;
         transform: scale(0.75);
         }
+    .goal{
+        height: 565px;
+    }
     .goal-image {
         position: relative;
         transform: scale(0.25);
-        top: -23em;
+        margin-top: 10em;
         left: 7em;
         }
+
+    .goal .hearts {
+        display: block;
+        position: relative;
+        top: -1700px
+    }
 
     .goal-text {
         margin-top: -32em;
@@ -551,16 +573,21 @@ header::after{
         padding: 0%;
         padding-bottom: 1em;
         z-index:2;
-        }
+
+    }
     .goal-text h2 {
-        top: 0em;
+        top: 3em;
         left: 1.5em;
         text-align:left;
+        font-size: 2em;
+
         }
     .goal-text p {
         text-align:left;
-        left: 30px;
-        top: -1em;
+        left: 20px;
+        top: 8em;
+        font-size: 1.125em;
+        line-height: 25.31px;
         }
 
     .whatwedo {
@@ -570,19 +597,23 @@ header::after{
         height: auto;
         }
     .whatwedo h2 {
-        font-size: 50px;
-        margin-left: 1.5em;
+        font-size: 2em;
+        margin-left: 1.0em;
         padding-top: 1em;
+        top: 4em;
         }
-    .whatwedo p {font-size: 20px;
+    .whatwedo p {
+        font-size: 1em;
         margin-left: 20px;
-        width: 90%;}
+        width: 90%;
+    
+    }
     .whatwedo img {
         position: relative;
         margin-left: 0px;
         width: 100%;
-        top: -57em;
-        left: -11em;
+        top: -50em;
+        left: 2em;
         }
     .about-container {
     left: -3em;
