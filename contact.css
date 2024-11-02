@@ -35,7 +35,12 @@ button{
     transition: all 0.3s ease;
 }
 
-
+header{
+    z-index: 999;
+}
+header .dropdown_menu {
+    background: #EBFAE7;
+}
 /*Contact Starts*/
 
 .contact-container{

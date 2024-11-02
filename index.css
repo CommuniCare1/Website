@@ -40,6 +40,12 @@ button{
 header{
     background-color: #EBFAE7;
 }
+header{
+    z-index: 999;
+}
+header .dropdown_menu {
+    background: #FFFFFF;
+}
 header::after{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);

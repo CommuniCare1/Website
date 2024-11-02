@@ -35,8 +35,11 @@ button{
     transition: all 0.3s ease;
     background: "banner.css";
 }
-header::after{
-    position: sticky;
+header{
+    z-index: 999;
+}
+header .dropdown_menu {
+    background: #EBFAE7;
 }
 
 /*About Us Starts*/

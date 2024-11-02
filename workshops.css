@@ -32,7 +32,12 @@ button{
     justify-content: center;
     transition: all 0.3s ease;
     }
-
+header{
+    z-index: 999;
+}
+header .dropdown_menu {
+    background: #EBFAE7;
+}
 .Workshops-Section {margin-top:20px;
     font-family: sans-serif;
     height:auto;
