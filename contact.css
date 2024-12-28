@@ -437,13 +437,11 @@ textarea{
     input, textarea {
         width: 90%;
     }
-
-
 }
 
 @media screen and (max-width: 480px) {
     .contact-container{
-        width: 100%;
+        margin-top: 0em;
     }
     .contact-left {
         display: flex;
@@ -456,60 +454,54 @@ textarea{
         position: relative;
         width: 89px;
         height: 72px;
-        top: -50px;
+        top: -1em;
+        left: -0.75em;
     }
     .contact-container h1 {
         position: relative;
         font-size: 48px;
         line-height: 60px;
-        top: -40px;
-        left: -10px;
+        top: -1.15em;
+        left: -1em;
 
-    }
-
-    .contact-left h3, .join-left h3 {
-        font-size: 36px;
-        line-height: 40px;
     }
 
     .contact-left h3{
         position: relative;
-        top: -90px;
+        top: -2.5em;
         font-size: 32px;
-        left: 25px;
+        left: -0.5em;
 
     }
 
-    .contact-left h4, .join-left h4 {
-        font-size: 18px;
-        line-height: 18px;
-        text-align: center;
-        top: -40px;
-    }
     .contact-left h4{
         position: relative;
-        top: -125px;
+        top: -4.15em;
+        left: -1em;
         font-size: 20px;
-        left: 25px;
+        width: 90%;
+        line-height: 1.35em;
     }
 
-    .contact-right button, .join-right button {
+    .contact-right button {
         position: relative;
         width: 200px;
         height: 70px;
     }
     .contact-left button{
         position: relative;
-        top: -160px;
-        width: 319px;
+        top: -9.5em;
+        left: -1em;
+        width: 21em;
         height: 85.53px;
         font-size: inherit;
         display: flex;
+        transform:scale(0.85);
     }
     .contact-left button{
         position: relative;
         align-items: left;
-        padding-left: -1px;
+        padding-right: 2em;
     }
     .contact-left p{
         position: relative;
@@ -519,7 +511,8 @@ textarea{
     }
     .contact-right{
         position: relative;
-        top: -100px;
+        top: -4em;
+        left: -0.5em;
     }
     input, textarea {
         width: 89.9%;
@@ -529,6 +522,33 @@ textarea{
     }
     .contact-left button a {
         font-size: 14.09px;
+    }
+    .contact-right button{
+        position: relative;
+        left: 20%
+    }
+    .join-box{
+        margin-top: -2em;
+    }
+    .join-left h3 {
+        position: relative;
+        top: 0.5em;
+    }
+    .join-left h4 {
+        position: relative;
+        line-height: 1.5em;
+        top: 1em;
+    }
+    .join-right {
+        width: 100%;
+        height: 1em;
+    }
+    .join-right button{
+        top: 1em;
+        left: 12.5%;
+    }
+    input, textarea {
+        width: 90%;
     }
 }
 
