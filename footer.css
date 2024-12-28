@@ -189,7 +189,7 @@ footer p {position:relative;
 @media screen and (max-width: 480px){
 
     footer {
-        height: 61em;
+        height: 35em;
         padding: 0%;
         width:100%;
     }
@@ -200,50 +200,54 @@ footer p {position:relative;
 
     .heart_leaf {
         display: inline-block;
-        margin-top: 5rem;
+        margin-top: 1rem;
         align-items: center;
+        height: 15%;
+        margin-left: -18rem;
     }
 
     footer h4 {
-        font-size: 32px;
+        font-size: 28px;
         position: relative;
-        left: -1em;
+        left: -0.2em;
+        top: -4.3rem;
         width: 126%;
     }
     .Join {
-        width: 260px;
-        height: 70px;
-        font-size: 25.36px;
+        width: 192px;
+        height: 120px;
+        font-size: 21.36px;
         position: relative;
-        transform: scale(1.25);
-        margin: 20px;
+        top: -3rem;
+        transform: scale(0.75);
+        margin: 0rem;
     }
     .Line {
-        display: inline-block;
-        margin-top: 2rem;
         align-items: center;
+        margin-top: 1rem;
     }
 
     footer nav {
-        transform: scale(2);
-        margin-top: 70px;
+        transform: scale(1.2);
+        margin-top: -2.5em;
 
     }
     footer nav a {
         font-size: 16px;
-        margin: 10px 0;
+        margin: 0.5em 0;
     }
     .InstallApp {
-        transform: scale(2);
-        margin-top: 90px;
+        transform: scale(1.5);
+        margin-top: 3em;
         margin-bottom: 30px;
     }
     footer p {
-        margin-top: 17rem;
+        margin-top: 15.5rem;
         font-size: 12px;
         width: 130%;
-        left: -15em;
+        left: -13.5em;
         display:inline-block;
     }
+
 /* Footer Ends */
 }
