@@ -1,7 +1,13 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
-    padding-top: 150px;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {padding-top: 150px;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -10,8 +16,7 @@ body {
     font-variation-settings:
         "wdth" 100;
     text-align: center;
-    align-items: center;
-}
+    align-items: center;}
 
 button{
     display: flex;
@@ -33,662 +38,268 @@ button{
     margin-top: 20px;
     justify-content: center;
     transition: all 0.3s ease;
-    background: "banner.css";
-}
+    }
 header{
     z-index: 999;
 }
 header .dropdown_menu {
     background: #EBFAE7;
 }
+.Workshops-Section {margin-top:20px;
+    font-family: sans-serif;
+    height:auto;
+    margin-bottom:-200px;
+    top:-30px;
+    position:relative;}
 
-/*About Us Starts*/
-.aboutus-about {
-    padding:80px;
+.Workshops-Section img {transform:scale(1.5);
     position:relative;
-}
-.aboutus-about img {
-    position:relative;
-    /*
-    display:inline-block;
-    */
-    width: 152px;
-    height: 122px;
-    /*
-    text-align: center;
-    */
-    align-items: center;
-    top:-70px;
+    top:-220px;
+    left:-50px;}
+.Workshops-Section .collaborateimg {position:relative;
+    transform: scale(0.85);
     left:250px;
-}
-.aboutus-about h1 {
+    top:10px;}
+.Workshops-Section h1 {color: rgba(12, 74, 127, 1);
     position:relative;
-    color:rgba(28, 51, 18, 1);
-    display:inline-block;
+    top:-220px;
+    margin-left: 200px;
     font-size: 96px;
-    font-weight: 400px;
-    line-height: 130.73px;
+    font-weight: 800;
+    line-height: 153.6px;
+    text-align: left;}
+.Workshops-Section p {color: rgba(0, 0, 0, 1);
+    position:relative;
+    font-size: 30px;
+    font-weight: 100;
+    width:68%;
+    line-height: 43.58px;
+    text-align: left;
+    top:-200px;
+    left:200px;}
+
+.Why-Workshops {justify-content: center;
+    margin-top: 100px;}
+.Why-Workshops h3 {color:rgba(12, 74, 127, 1);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 65.37px;
+    position:relative;
+    left:-240px;}
+
+.Why-Workshops li {
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 43.58px;
+    text-align: left;
+    width:73%;
+    position:relative;
     top:50px;
-    left:-50px;
+    margin-top: 30px;
+    margin-left:200px;
 }
-
-
-.mission {
-    position: absolute;
-    font-family: "Domine", serif;
-    background: #315A20;
-    width: 1000px;
-    height: 492px;
-    left: 250px;
-    gap: 0px;
-    border-radius: 70px 70px 70px 70px;
-    opacity: 0px;
+.Why-Workshops ul li {
+    list-style-type: disc;
 }
-
-.mission h2{
-    position:relative;
-    color: #CAE4C5;
+.Why-Workshops p {font-size: 32px;
+    font-weight: 100;
+    line-height: 43.58px;
+    text-align: left;
+    width:72%;
+    margin-top:120px;
+    margin-left:200px;}
+.Why-Workshops .TBC {font-size: 40px;
     font-weight: 700;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 89.6px;
-    top:40px;
-    font-family: "Domine", serif;
-}
+    line-height: 64px;
+    text-align: center;
+    margin-top:100px;}
 
-.mission p{
-    position:relative;
-    color: #CAE4C5;
-    font-weight: lighter;
-    font-style:normal;
-    font-size: 36px;
-    font-optical-sizing: auto;
-    width:90%;
-    left:40px;
-    top:60px;
-    font-family: "Domine", serif;
-    display: flex;
-    line-height: 50.63px;
-    text-overflow: unset;
-}
-
-.motivation {
+.FAQ {
     margin-top:100px;
-    overflow: hidden;
-    height:1800px; 
-    background: #CAE4C5;
-    color:rgba(28, 51, 18, 1);
-    text-align: left;
-}
-.motivation h2{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    font-family: "Domine", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 70px;
-    top: 350px;
-    left:150px;
-    padding-top: 200px;
-}
-.motivation p{
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 28px;
-    line-height: 39.38px;
-    margin: 0;
-    padding-left: 30px;
-    width:81%;
-    position:relative;
-    top:500px;
-    left:170px;
-}
-.motivation .heart-leafs {
-    display:none;
-    width: 56px;
-    height: 84px;
-    align-self: left;
-    position: relative;
-    
-}
-
-.dashed-line img {
-    position:relative;
-    overflow: hidden;
-    display: flex;
-    margin-top:-1600px;
-    left:-150px;
-    width:auto;
-    height:1500px;
-}
-
-.goal{
-    display: flex;
-    position: relative;
-    opacity: 0px;
-    margin-top:-400px;
-    margin-left: 100px;
-}
-.goal-image{
-    flex-basis: 60%;
-    padding: 0px 60px;
-}
-.goal .goal-image {
-    top: 50px
-}
-
-.goal-text{
-    flex-basis: 100%;
-    margin-left: 150px;
-    flex-basis: 100%;
-    padding: 100px;
-    text-align: left;
-    border-radius: 70px;
-    position:relative;
-    left:-50px;
-    background-color: #083358
-}
-.goal-text h2{
-    color: #BFD1E5;
-    font-family: "Domine", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    position:relative;
-    left:50px;
-    font-style: normal;
-    font-size: 60px;
-}
-.goal-text p{color: #BFD1E5;
-    font-family: "Domine", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 26px;
-    width:95%;
-    position:relative;
-    left:50px;}
-
-.whatwedo {
     background-color: rgba(191, 209, 229, 1);
-    color:rgba(8, 51, 88, 1);
-    height:800px;
-    padding-top:300px;
-    margin-top:-355px;
-    font-family: "Domine", serif;
-    height: 1036px;
+    padding-bottom: 50px;
 }
-.whatwedo h2 {
+.FAQ h2 {
+    color: rgba(12, 74, 127, 1);
+    font-family:serif;
     font-size: 64px;
     font-weight: 700;
-    line-height: 89.6px;
-    text-align: left;
-    margin-left:120px;
-    margin-top:-10px;}
-.whatwedo p {font-size: 30px;
-    font-weight: 400;
-    line-height: 42.19px;
-    text-align: left;
-    width:80%;
-    margin-left:130px;}
-.whatwedo img {
-    margin-left:765px;
-    margin-top:-489px;
-    transform: scale(1.12);
-    color: #083358;
-}
-
-.about-container {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    padding: 20px;
-    gap: 20px;
-}
-.ourstory-text{
-    flex-basis: 60%;
-    padding: 40px 60px;
-
-}
-.ourstory-text p{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 100;
-    font-style:normal;
-    text-align: left;
-    font-size: 24px;
-    line-height: 33.75px;
-    width:170%;}
-.ourstory-text h2{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-    text-align: left;
-    font-size: 60px;
-}
-.ourstory-image img{
-    flex:1;
-    position:relative;
-    left:200px;
-    top:90px;
-    padding: 40px 60px;
-    flex-basis: 60%;
-}
-
-.team {
+    line-height: 72.96px;
     text-align: center;
-    margin-bottom: 150px;
-    top: 150px;
-
+    margin-left:-240px;
+    padding-top:100px;
 }
-.team h2 {
-    margin-bottom: 40px;
-    font-size: 60px;
+.FAQ h3 {
+    color:rgba(103, 138, 168, 1);
+    font-family:serif;
+    font-size: 64px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 72.96px;
+    text-align: center;
+    margin-left:-700px;
+    margin-top:40px;
 }
-.team-container {
+.FAQ ul {
+    margin: 100px auto;
+    width: 1100px;
+    padding: 0;
+    list-style: none;
+}
+.FAQ li {margin-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    background: inherit;
+    color:rgba(12, 74, 127, 1);}
+.FAQ li label{padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    margin-left: 150px;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
     text-align: left;
-    gap: 70px;
-}
-.team p{
-    text-align: left;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    margin-bottom: -50px;
+    margin-top: 40px; /*Might edit*/
+    cursor: pointer;
+    font-family: "Domine", serif;
+    font-weight:bolder;
+    font-style: lighter;
+    font-size: 40px;
+    line-height: 50px;}
+.FAQ li label span {transform: rotate(90deg);
+    color: #323232;
+    margin-left: auto;
+    padding-left: 10px;}
+.FAQ input[type="checkbox"]{display:none;}
+
+.FAQ .accordion-content {padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding-bottom 0.5s ease-in-out;
+    color: #1C3312;
+    font-family: "Domine", serif;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
-    line-height: 15px;
-}
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 50px;}
+.FAQ input[type="checkbox"]:checked +.accordion-content{max-height: none;
+    overflow:hidden;
+    max-height: 1000px;
+    padding-bottom: 20px;}
 
-/*MEDIA BELOW!*/
-@media (max-width: 1024px) {
-    .aboutus-about {
-        padding: 40px;
-    }
-
-    .aboutus-about img {
-        width: 120px;
-        height: 100px;
-        left: 0;
-        top: 0;
-    }
-
-    .aboutus-about h1 {
-        font-size: 64px;
-        left: 0;
-        top: 0;
-        text-align: center;
-    }
-
-    .mission {
-        margin-left: 0;
-        left: 0;
-        width: 90%;
-        max-width: 90%;
-    }
-
-    .motivation h2 {
-        font-size: 50px;
-        left: 0;
-        padding-top: 100px;
-        text-align: center;
-    }
-
-    .motivation p {
-        width: 90%;
-        left: 0;
-        padding-left: 20px;
-    }
-
-    .goal {
-        flex-direction: column;
-        margin-top: 0;
-        margin-left: 0;
-    }
-
-    .goal-text {
-        width: 90%;
-        left: 0;
-        margin-left: 0;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .goal-text h2,
-    .goal-text p {
-        left: 0;
-        text-align: center;
-    }
-
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .founder-text {
-        margin-left: 0;
-        padding: 20px;
-    }
-
-    .founder-text p {
-        width: 100%;
-    }
-
-    .founder-image img {
-        left: 0;
-        top: 0;
-        padding: 20px;
-    }
-
-    .team-container {
-        margin-left: 0;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .aboutus-about {
-        padding: 20px;
-    }
-
-    .aboutus-about img {
-        max-width: 89px;
-        max-height: 72px;
-        align-items: center;
-    }
-
-    .aboutus-about h1 {
-        font-size: 48px;
-        left: 0;
-        top: 0;
-        text-align: center;
-    }
-
-    .mission {
-        margin-left: 0;
-        left: 0;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        padding: 20px;
-    }
-
-    .mission h2 {
-        font-size: 36px;
-        top: 0;
-    }
-
-    .mission p {
-        font-size: 20px;
-        line-height: 30px;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 0;
-    }
-
-    .motivation h2 {
-        font-size: 36px;
-        left: 0;
-        padding-top: 50px;
-        text-align: center;
-    }
-
-    .motivation p {
-        width: 100%;
-        left: 0;
-        padding-left: 10px;
-    }
-
-    .goal {
-        flex-direction: column;
-        margin-top: 0;
-        margin-left: 0;
-    }
-
-    .goal-text {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .goal-text h2,
-    .goal-text p {
-        left: 0;
-        text-align: center;
-    }
-
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .founder-text {
-        margin-left: 0;
-        padding: 20px;
-    }
-
-    .founder-text p {
-        width: 100%;
-    }
-
-    .founder-image img {
-        left: 0;
-        top: 0;
-        padding: 20px;
-    }
-
-    .team-container {
-        margin-left: 0;
-        justify-content: center;
-    }
-}
+/* Media Queries */
 
 @media screen and (max-width: 480px) {
-    .aboutus-about {
-        margin-bottom: 2em;
-        }
-    .aboutus-about .heart {
-        width: 89px;
+    .Workshops-Section {
+        right: 11em;
+    }
+    .Workshops-Section .brand_img {
+        left: 21em;
+        display: inline-block;
+        width: 4em;
         height: 72px;
-        left: 9em;
-        top: 1em;
-        transform: scale(1.75);
-        }
-    .aboutus-about h1 {
-        font-size: 5em;
-        top: 90px;
-        left: -0.7em;
-        font-size: 48px;
-        text-align: center;
-    }
-    .mission {
-        height: 280px;
-        border-radius: 0;
-        padding: 0%;
-        margin-top: 60px;
-        }
-    .mission h2 {
-        font-size: 4em;
-        line-height: 60px;
-        top: 1em;
-        font-size: 36px;
-        }
-    .mission p {
-        left: 0em;
-        font-size:18px;
-        top: 3em;
-        }
-
-    .motivation {
-        height: auto;
-        width:100%;
-        padding: 0%;
-        margin-top: 20em;
-        height: 1400px;
-        }
-    .motivation h2 {
-        font-size: 2em;
-        padding-top: 4em;
-        top: -1em;
-        }
-    .motivation p {
-        font-size: 1em;
-        top: 0em;
-        width: 81%;
-        left: 2em;
-        padding-bottom: 7em;
-        }
-    
-    .dashed-line img {
-        position: relative;
-        left: -40em;
-        top: -18em;
-        transform: scale(0.75);
-        }
-    .goal{
-        height: 565px;
-    }
-    .goal-image {
-        position: relative;
-        transform: scale(0.25);
         margin-top: 10em;
-        left: 7em;
-        }
-
-    .goal .hearts {
-        display: block;
-        position: relative;
-        top: -1700px
+        margin-bottom: 5em;
     }
-
-    .goal-text {
-        margin-top: -32em;
-        border-radius: 0;
-        padding: 0%;
-        padding-bottom: 1em;
-        z-index:2;
-
+    .Workshops-Section .collaborateimg {
+        left: 9em;
+        width: 294px;
+        height: 272px;
     }
-    .goal-text h2 {
-        top: 3em;
-        left: 1.5em;
-        text-align:left;
-        font-size: 2em;
-
-        }
-    .goal-text p {
-        text-align:left;
-        left: 20px;
-        top: 8em;
-        font-size: 1.125em;
-        line-height: 25.31px;
-        }
-
-    .whatwedo {
-        width:100%;
-        padding: 0%;
-        margin-top: 0;
-        height: auto;
-        }
-    .whatwedo h2 {
-        font-size: 2em;
-        margin-left: 1.0em;
-        padding-top: 1em;
-        top: 4em;
-        }
-    .whatwedo p {
-        font-size: 1em;
-        margin-left: 20px;
-        width: 90%;
-    
-    }
-    .whatwedo img {
-        position: relative;
-        margin-left: 0px;
-        width: 100%;
-        top: -50em;
+    .Workshops-Section h1 {
         left: 2em;
+        justify-content: center;
+        display: flex;
+        font-size: 2.5em;
+        top: -7.75em;
+        margin-top: -1em;
         }
-    .about-container {
-    left: -3em;
-    position: relative;
-}
-    .ourstory-text {
-        padding: 0;
-    }
-    .ourstory-text h2 {
-        position: relative;
-        font-size: 40px;
-        text-align: center;
-        left: 50px;
-    }
-    .ourstory-text p {
-        position: relative;
-        font-size: 18px;
-        width: 100%;
-        top: 300px;
-        left: 50px;
-    }
-    .ourstory-image img {
-        width: 100%;
-        left: -20px;
-        top: -750px;
+    .Workshops-Section p {
+        margin-top: 4em;
+        right: 12em;
+        width: 90%;
+        font-size: 15px;
     }
 
-    .team-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        position: relative;
-        left: 50px;
-        transform: scale(0.75);
-        top: -7em;
+    .Why-Workshops {margin-top: 1em;}
+    .Why-Workshops h3 {
+        left: 0em;
+        font-size: 2em;
+        line-height: 1.5em;
         }
-    .team {
-        font-size: 50px;
-        left: -1em;
+    .Why-Workshops ul {
+        right: 10.5em;
+        top: -3em;
+        width: 95%;
+        font-size: 15px;
+        line-height: 1.4em;
         position: relative;
-        margin-top: -150px;
-        margin-bottom: -12em;
         }
-    .team h2 {position:relative;
-        left: 1em;
-        top: 1em;}
-    .team img {margin-bottom: 5px;}
-    .team p {font-size: 14px;
-        margin: 0;
+    .Why-Workshops ul li {
+        line-height: 1.4em;
+        font-size: 1.25em;
+        list-style-type: disc;
+        }
+    .Why-Workshops .info {
+        line-height: 1.4em;
+        font-size: 1.25em;
+        width: 70%;
+        right: 8em;
+        margin-top: 2em;
+        position: relative;
+        font-size: 1.25em;
+        }
+    .Why-Workshops .TBC {
+        width: 80%;
+        right: 5.5em;
+        margin-top: 1.5em;
+        position: relative;
+        font-size: 1.85em;
+        line-height: 1.5em;
+    }
+
+    .FAQ {
+        padding: 10%;
         width:100%;
+        margin-bottom: -7em;
+        }
+    .FAQ h2 {
+        left:6.5em;
+        top: -2em;
+        position: relative;
+        font-size: 2.5em;
+        font-weight: 510;
+        width: 90%;
+        line-height: 1.5em;
+        }
+    .FAQ h3 {
+        position: relative;
+        left: 8.75em;
+        top: -3em;
+        font-size: 2.5em;
+        font-weight: 510;
+        }
+    .FAQ ul {
+        top: -15em;
+        right: 1.5em;
+        position: relative;
+        margin-bottom: 1em;
+        }
+    .FAQ li {
+        width: 33.5%;
+        margin-bottom: -5em;
     }
-}
-@media screen and (max-width: 360px) {
-    .ourstory-image img {
-        width: 100%;
-        left: -20px;
-        top: -800px;
+    .FAQ li label {
+        position: relative;
+        top: 3em;
+        font-size: 1em;
     }
-
-
-}
-@media screen and (max-width: 351px) {
-    .aboutus-about .heart{
-        height: 60px;
-        width: 77px;
-        left: 80px;
+    .FAQ ul li .accordion-content p {
+        font-size: 0.6em;
+        display: flexbox;
     }
-
-    
-
+    .FAQ input {height:auto;}
 }
 
 /*About Us Ends*/
-
-
