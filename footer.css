@@ -187,9 +187,8 @@ footer p {position:relative;
 }
 
 @media screen and (max-width: 480px){
-
     footer {
-        height: 35em;
+        height: 40em;
         padding: 0%;
         width:100%;
     }
@@ -214,22 +213,17 @@ footer p {position:relative;
         width: 126%;
     }
     .Join {
-        width: 192px;
-        height: 120px;
-        font-size: 21.36px;
+        width: 302px;
+        height: 100px;
+        font-size: 1.85em;
         position: relative;
-        top: -3rem;
-        transform: scale(0.75);
+        top: -3.85rem;
+        transform: scale(0.7);
         margin: 0rem;
     }
-    .Line {
-        align-items: center;
-        margin-top: 1rem;
-    }
-
     footer nav {
         transform: scale(1.2);
-        margin-top: -2.5em;
+        margin-top: -3em;
 
     }
     footer nav a {
@@ -238,7 +232,7 @@ footer p {position:relative;
     }
     .InstallApp {
         transform: scale(1.5);
-        margin-top: 3em;
+        margin-top: 2.75em;
         margin-bottom: 30px;
     }
     footer p {
