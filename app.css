@@ -1,6 +1,13 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
     padding-top: 150px;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
@@ -69,7 +76,7 @@ header .dropdown_menu {
     top: -130px;
     left:1150px;
     display:flex;}
-    
+
 .h1-box{
     width:100%;
 }
@@ -296,32 +303,30 @@ header .dropdown_menu {
 
 @media screen and (max-width: 480px) {
     .meet-app {
-        margin-top: 3em;
+        margin-top: 0em;
+        margin-bottom: -3em;
         text-align: center;
-
     }
 
     .meet-app h1 {
-        margin-top: 0em;
         margin-left: 2em;
-        font-size: 3em;
+        font-size: 2.5em;
         text-align: left;
-        right: 1.3em;
-
+        right: 1em;
         }
 
     .blueleaf {
-        top: -4.0em;
-        left: 10em;
-        width: 4rem;
+        top: -5em;
+        left: 9em;
+        width: 3rem;
         transform: scale(1.25);
-
         }
 
     .meet-left p {
-        font-size: 2em;
-        width: 90%;
-
+        position: relative;
+        font-size: 1.5em;
+        width: 84%;
+        right: -1em;
         }
 
     .how-box {
@@ -336,7 +341,7 @@ header .dropdown_menu {
         font-size: 3em;
         position: relative;
         display: block;
-        left: 1em;
+        left: 0.25em;
         top: 0em;
         }
 
@@ -350,21 +355,25 @@ header .dropdown_menu {
         }
 
     #faq h2 {
-        font-size: 3em;
-        width: 90%;
+        font-size: 2em;
+        line-height: 2em;
         text-align: center;
-        left: 0.5em;
         position: relative;
         }
 
     #accordion {
-        width: 93%;
+        width: 105%;
+        top:-1em;
+        right:0.15em;
         position: relative;
-        left: 0em;
         font-size:3em;
+        margin-bottom: 0.75em;
         }
-
-        #accordion li label {font-size: 0.8em;}
+        #accordion li label {font-size: 0.45em;
+                font-weight: 500;
+                margin-bottom: -4em;
+                position: relative;
+                top: -1.95em;}
 
         #accordion .accordion-content {font-size: 18px;}
     }
