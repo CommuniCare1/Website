@@ -494,18 +494,17 @@ header .dropdown_menu {
 
 @media screen and (max-width: 480px) {
     .aboutus-about {
-        margin-bottom: 2em;
+        margin-bottom: -6em;
         }
     .aboutus-about .heart {
-        width: 89px;
-        height: 72px;
-        left: 9em;
-        top: 1em;
+        width: 3.5em;
+        left: 7em;
+        top: -6em;
         transform: scale(1.75);
         }
     .aboutus-about h1 {
         font-size: 5em;
-        top: 90px;
+        top: -0.75em;
         left: -0.7em;
         font-size: 48px;
         text-align: center;
@@ -519,13 +518,14 @@ header .dropdown_menu {
     .mission h2 {
         font-size: 4em;
         line-height: 60px;
-        top: 1em;
+        top: 0.85em;
         font-size: 36px;
         }
     .mission p {
-        left: 0em;
+        left: 3em;
         font-size:18px;
-        top: 3em;
+        top: 2.5em;
+        width: 70%;
         }
 
     .motivation {
@@ -550,9 +550,9 @@ header .dropdown_menu {
 
     .dashed-line img {
         position: relative;
-        left: -40em;
-        top: -18em;
-        transform: scale(0.75);
+        left: -152em;
+        top: -32em;
+        transform: scale(0.09);
         }
     .goal{
         height: 565px;
@@ -560,7 +560,7 @@ header .dropdown_menu {
     .goal-image {
         position: relative;
         transform: scale(0.25);
-        margin-top: 10em;
+        margin-top: 5em;
         left: 7em;
         }
 
