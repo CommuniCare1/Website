@@ -122,9 +122,9 @@ export default function App() {
 
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLScCBRFdiiEYMTjzchYU-JgI_uVmQnUfB18erHHqL0uPZkRhTw/viewform"
-                  className="flex justify-center lg:justify-start"
+                  className="mt-8 flex justify-center lg:justify-start"
                 >
-                  <button className="mt-8 rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500">
+                  <button className="rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500">
                     Join App Waitlist
                   </button>
                 </a>
@@ -184,7 +184,7 @@ export default function App() {
           </div>
 
           <div className="scroll-animate mt-16 text-center">
-            <p className="mb-6 text-xl text-neutral-700">
+            <p className="mb-10 text-xl text-neutral-700">
               Have another question not listed here?
             </p>
             <Link
