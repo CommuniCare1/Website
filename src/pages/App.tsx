@@ -1,6 +1,7 @@
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const faqs = [
   {
@@ -182,11 +183,11 @@ export default function App() {
             <p className="mb-6 text-xl text-neutral-700">
               Have another question not listed here?
             </p>
-            <a href="/contact">
+            <Link to="/contact">
               <button className="rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500">
                 Contact Us
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

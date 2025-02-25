@@ -2,6 +2,7 @@ import NavBar from "../components/Navbar";
 import "./Home.css";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
@@ -76,12 +77,14 @@ function Home() {
                 Discover affordable services nearby with our easy-to-use app.
               </h5>
               <div className="flex justify-center md:justify-start">
-                <button
-                  onClick={() => (window.location.href = "/app")}
-                  className="scroll-animate z-10 mt-6 w-48 rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500"
-                >
-                  Learn More
-                </button>
+                <Link to="/app">
+                  <button
+                    // onClick={() => (window.location.href = "/app")}
+                    className="scroll-animate z-10 mt-6 w-48 rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500"
+                  >
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -113,12 +116,14 @@ function Home() {
                 awareness of affordable resources.
               </p>
               <div className="flex justify-center md:justify-start">
-                <button
-                  onClick={() => (window.location.href = "/about")}
-                  className="scroll-animate z-10 mt-6 mb-10 w-48 rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500 md:mb-0"
-                >
-                  Learn More
-                </button>
+                <Link to="/about">
+                  <button
+                    // onClick={() => (window.location.href = "/about")}
+                    className="scroll-animate z-10 mt-6 mb-10 w-48 rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500 md:mb-0"
+                  >
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
