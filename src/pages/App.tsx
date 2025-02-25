@@ -183,10 +183,11 @@ export default function App() {
             <p className="mb-6 text-xl text-neutral-700">
               Have another question not listed here?
             </p>
-            <Link to="/contact">
-              <button className="rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500">
-                Contact Us
-              </button>
+            <Link
+              to="/contact"
+              className="rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500"
+            >
+              Contact Us
             </Link>
           </div>
         </div>
