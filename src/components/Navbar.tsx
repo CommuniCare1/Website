@@ -24,11 +24,7 @@ export default function NavBar() {
       <div className="hidden flex-row gap-10 justify-self-end lg:flex">
         <NavLink text={"Home"} icon="/assets/home.png" url="/" />
         <NavLink text={"About"} icon="/assets/about.png" url="/about" />
-        <NavLink
-          text={"Contact"}
-          icon="src/assets/contact.png"
-          url="/contact"
-        />
+        <NavLink text={"Contact"} icon="/assets/contact.png" url="/contact" />
         <NavLink text={"Team"} icon="/assets/team.png" url="/team" />
         <DownloadAppButton />
       </div>
