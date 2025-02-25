@@ -14,7 +14,7 @@ export default function NavBar() {
       {/* Logo Section */}
       <div className="justify-self-start">
         <img
-          src="src/assets/Logo-horizontal.png"
+          src="/assets/Logo-horizontal.png"
           alt="horizontal communicare logo"
           className="h-auto w-3xs"
         />
@@ -22,14 +22,14 @@ export default function NavBar() {
 
       {/* Desktop Navigation */}
       <div className="hidden flex-row gap-10 justify-self-end lg:flex">
-        <NavLink text={"Home"} icon="src/assets/home.png" url="/" />
-        <NavLink text={"About"} icon="src/assets/about.png" url="/about" />
+        <NavLink text={"Home"} icon="/assets/home.png" url="/" />
+        <NavLink text={"About"} icon="/assets/about.png" url="/about" />
         <NavLink
           text={"Contact"}
           icon="src/assets/contact.png"
           url="/contact"
         />
-        <NavLink text={"Team"} icon="src/assets/team.png" url="/team" />
+        <NavLink text={"Team"} icon="/assets/team.png" url="/team" />
         <DownloadAppButton />
       </div>
 
@@ -40,9 +40,9 @@ export default function NavBar() {
           className="flex h-10 w-10 flex-col items-center justify-center space-y-2"
         >
           {isMobileMenuOpen ? (
-            <img src="src/assets/close.png" className="w-7" />
+            <img src="/assets/close.png" className="w-7" />
           ) : (
-            <img src="src/assets/menu.png" alt="navbar menu" className="w-7" />
+            <img src="/assets/menu.png" alt="navbar menu" className="w-7" />
           )}
         </button>
       </div>
@@ -55,10 +55,10 @@ export default function NavBar() {
             <NavLink text={"About"} icon="src/assets/about.png" url="/about" />
             <NavLink
               text={"Contact"}
-              icon="src/assets/contact.png"
+              icon="/assets/contact.png"
               url="/contact"
             />
-            <NavLink text={"Team"} icon="src/assets/team.png" url="/team" />
+            <NavLink text={"Team"} icon="/assets/team.png" url="/team" />
           </div>
 
           <DownloadAppButton />

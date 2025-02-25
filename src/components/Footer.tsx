@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Left Section: Logo, Email, Join Team */}
         <div className="flex w-56 flex-col items-center space-y-6 align-middle md:items-start">
           <img
-            src="src/assets/light-horizontal-logo.png"
+            src="/assets/light-horizontal-logo.png"
             alt="CommuniCare Logo"
             className="w-full"
           />
@@ -19,7 +19,7 @@ export default function Footer() {
             >
               <div className="left-2 flex gap-2">
                 <img
-                  src="src/assets/email.png"
+                  src="/assets/email.png"
                   alt="email icon"
                   className="h-6 w-6 self-center"
                 />
