@@ -8,8 +8,10 @@ import Team from "./pages/Team.tsx";
 import Contact from "./pages/Contact.tsx";
 import App from "./pages/App.tsx";
 
+const basePath = import.meta.env.BASE_URL;
+
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/" : "/"}>
+  <BrowserRouter basename={basePath}>
     <StrictMode>
       <Routes>
         <Route path="/" element={<Home />}></Route>
