@@ -1,120 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>CommuniCare</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="banner.css">
-        <meta charset="UTF-8">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <meta http-equiv="X-UA-Compatible™" content="IE-edge">
-
-    </head>
-    <body class="Home">
-        <header>
-            <div class="navbar">
-                <div class="logo">
-                    <img class="leaf"src="images/Brand/Logo.svg"/>
-                    <img class="brand"src="images/Brand/Logo text.svg"/>
-                </div>
-                <ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="workshops.html">Workshops</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <a href="app.html" class="action_btn">Our App</a>
-                <div class="toggle_btn">
-                    <i class='bx bx-menu' id="menu-icon"style="font-size: 2.8rem; color: #1C3312;"></i>
-                </label>
-                </div>
-            </div>
-            
-            <div class="dropdown_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="workshops.html">Workshops</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="app.html" class="action_btn">Our App</a></li>
-            </div>
-        </header>
-
-        <script>
-            const toggleBtn = document.querySelector('.toggle_btn')
-            const toggleBtnIcon = document.querySelector('.toggle_btn i')
-            const dropDownMenu = document.querySelector('.dropdown_menu')
-
-            toggleBtn.onclick = function(){
-                dropDownMenu.classList.toggle('open')
-                const isOpen = dropDownMenu.classList.contains('open')
-
-                toggleBtnIcon.classList = isOpen
-                 ? 'bx bx-x'
-                 :'bx bx-menu'
-            }
-
-        </script>
-
-        <div class ="RightHealthcare">
-            <img src="images/Brand/leaf sprout.svg"/>
-            <h1><strong>Find the Right Healthcare Whenever You Need.</strong> </h1>
-            <p>CommuniCare will help connect you with free services nearby because
-            you deserve to feel better.</p>
-        </div>
-
-        <div class="appstuff">
-            <h3>Ready to get started?</h3>
-            <div class="ap">
-                <p>Download our easy-to-use app.</p>
-                <button onclick="document.location='app.html'">Learn More</button><br>
-            </div>
-            <img class="banner"src="images/Group 6.png"/>
-        </div>
-
-        <div class="aboutus">
-            <div class="aboutus-left">
-                <h2>About Us</h2>
-                <p>We are committed to building healthier communities by spreading
-                awareness of affordable resources.</p>
-            </div>
-            <div class="aboutus-right">
-                <button onclick="document.location='about.html'">Learn More</button>
-            </div>
-        </div>
-
-        <section class="workshopstuff">
-            <div class="workshop-right">
-                <h2>Workshops</h2>
-            </div>
-            <div class="workshop-left">
-                <p>Join one of our workshops for personalized support and guidance
-                on your options.</p>
-                <button onclick="document.location='workshops.html'">See Upcoming Workshops</button>
-
-            </div>
-        </section>
-
-        <footer>
-            <img class ="heart_leaf" src="images/Brand/Logo.svg">
-            <h4>Let's Work Together!</h4>
-            <button class= "Join"
-            onclick="document.location='contact.html'">Contact Us</button>
-            <button class= "Join"
-            onclick="document.location='contact.html'">Join Our Team
-            </button>
-            <img class ="Line" src="images/line.png">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="workshops.html">Workshops</a>
-            </nav>
-            <img class="FooterImg" src="images/Brand/FooterLogo.svg"/>
-            <button class="InstallApp"
-            onclick="document.location= 'https://forms.gle/bXmntpJJ8i1UY5G39'" >App Interest Form
-            </button>
-            <p>CommuniCare is a 501(c)(3)(nonprofit) organization</p>
-        </footer>
-
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CommuniCare</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
