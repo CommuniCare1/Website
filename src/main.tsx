@@ -9,7 +9,7 @@ import Contact from "./pages/Contact.tsx";
 import App from "./pages/App.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/Website">
+  <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/Website" : "/"}>
     <StrictMode>
       <Routes>
         <Route path="/" element={<Home />}></Route>
