@@ -48,7 +48,7 @@ function Home() {
 
               <div className="relative z-10">
                 <img
-                  src="src/assets/phone.png"
+                  src="public/assets/phone.png"
                   alt="phone"
                   className="scroll-animate h-[0px] lg:h-[600px]"
                 />
@@ -57,7 +57,7 @@ function Home() {
           </div>
 
           <img
-            src="src/assets/homes.png"
+            src="public/assets/homes.png"
             alt="homes"
             className="absolute bottom-[-150px] z-0 h-auto w-full opacity-50"
           />
@@ -85,7 +85,7 @@ function Home() {
 
             <div className="relative z-10 w-3/4">
               <img
-                src="src/assets/app.png"
+                src="public/assets/app.png"
                 alt="app"
                 className="scroll-animate mx-0 max-w-[full] md:mx-16 lg:w-auto"
               />
@@ -96,7 +96,7 @@ function Home() {
           <div className="flex w-full flex-col-reverse items-center justify-between bg-neutral-50 px-4 py-16 sm:px-8 md:flex-row md:px-16 md:py-32 lg:px-32 xl:px-52">
             <div className="relative z-10 mx-6 mb-8 md:mb-0 lg:mx-0">
               <img
-                src="src/assets/fam_pic.png"
+                src="public/assets/fam_pic.png"
                 alt="fam"
                 className="scroll-animate w-auto max-w-full"
               />
@@ -138,7 +138,7 @@ function Home() {
 
             <div className="relative -bottom-8 z-10 w-1/2">
               <img
-                src="src/assets/work_home.png"
+                src="public/assets/work_home.png"
                 alt="work"
                 className="scroll-animate w-auto max-w-full"
               />
@@ -146,17 +146,17 @@ function Home() {
 
             {/* Vector images with responsive positioning */}
             <img
-              src="src/assets/Vector 71.png"
+              src="public/assets/Vector 71.png"
               alt="vector71"
               className="absolute right-0 bottom-[-80px] h-auto w-0 sm:right-1/4 md:w-auto"
             />
             <img
-              src="src/assets/Vector 70.png"
+              src="public/assets/Vector 70.png"
               alt="vector70"
               className="absolute right-0 bottom-[150px] h-auto w-0 sm:right-16 sm:bottom-[320px] md:w-auto"
             />
             <img
-              src="src/assets/Vector 69.png"
+              src="public/assets/Vector 69.png"
               alt="vector69"
               className="absolute right-0 bottom-[-50px] h-auto w-0 md:w-auto"
             />

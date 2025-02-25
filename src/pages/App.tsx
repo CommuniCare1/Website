@@ -75,7 +75,7 @@ export default function App() {
         {/* Hero Banner - Matching Contact page banner style */}
         <div className="relative flex h-80 items-center justify-center overflow-hidden bg-teal-400 text-white">
           <img
-            src="src/assets/contact-header.png"
+            src="public/assets/contact-header.png"
             alt="App Banner"
             className="absolute inset-0 h-full w-full object-cover"
           />
@@ -125,7 +125,7 @@ export default function App() {
 
               <div className="scroll-animate flex justify-center lg:w-1/2">
                 <img
-                  src="src/assets/Group 52.png"
+                  src="public/assets/Group 52.png"
                   alt="App Screenshot"
                   className="h-auto max-w-1/4 object-contain lg:w-full lg:max-w-3/4"
                 />

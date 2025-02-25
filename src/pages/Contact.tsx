@@ -33,7 +33,7 @@ export default function Contact() {
         {/* Hero Banner - Matching About page banner height and style */}
         <div className="relative flex h-80 items-center justify-center overflow-hidden bg-teal-400 text-white">
           <img
-            src="src/assets/contact-header.png"
+            src="public/assets/contact-header.png"
             alt=""
             className="absolute inset-0 h-full w-full object-cover"
           />
@@ -83,7 +83,7 @@ export default function Contact() {
                   className="flex w-full items-center gap-4 rounded-2xl border border-teal-400 p-5 text-left text-neutral-800 shadow-sm transition duration-150 hover:bg-teal-50 hover:shadow-md"
                 >
                   <img
-                    src="src/assets/email-dark.png"
+                    src="public/assets/email-dark.png"
                     alt="email icon"
                     className="h-8 w-8"
                   />
