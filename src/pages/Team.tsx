@@ -230,7 +230,7 @@ export default function Team() {
       <div className="mt-20 min-h-screen bg-neutral-50">
         <div className="relative flex h-80 items-center justify-center overflow-hidden bg-teal-400 text-white">
           <img
-            src="public/assets/team banner.svg"
+            src="/assets/team banner.svg"
             alt="Team Banner"
             className="absolute inset-0 h-full w-full object-cover"
           />
