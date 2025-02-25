@@ -43,7 +43,7 @@ const faqs = [
 ];
 
 export default function App() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -64,7 +64,7 @@ export default function App() {
     return () => observer.disconnect();
   }, []);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
