@@ -40,9 +40,11 @@ function Home() {
                   services nearby because you deserve to feel better.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="scroll-animate z-10 mt-6 h-16 w-64 rounded-full bg-neutral-800 px-6 py-3 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-neutral-700 sm:h-20 sm:w-72 sm:text-2xl">
-                    Join App Waitlist
-                  </button>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScCBRFdiiEYMTjzchYU-JgI_uVmQnUfB18erHHqL0uPZkRhTw/viewform">
+                    <button className="scroll-animate z-10 mt-6 h-16 w-64 rounded-full bg-neutral-800 px-6 py-3 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-neutral-700 sm:h-20 sm:w-72 sm:text-2xl">
+                      Join App Waitlist
+                    </button>
+                  </a>
                 </div>
               </div>
 
@@ -75,7 +77,7 @@ function Home() {
               </h5>
               <div className="flex justify-center md:justify-start">
                 <button
-                  onClick={() => (window.location.href = "/App")}
+                  onClick={() => (window.location.href = "/app")}
                   className="scroll-animate z-10 mt-6 w-48 rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500"
                 >
                   Learn More
@@ -112,7 +114,7 @@ function Home() {
               </p>
               <div className="flex justify-center md:justify-start">
                 <button
-                  onClick={() => (window.location.href = "/About")}
+                  onClick={() => (window.location.href = "/about")}
                   className="scroll-animate z-10 mt-6 mb-10 w-48 rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500 md:mb-0"
                 >
                   Learn More

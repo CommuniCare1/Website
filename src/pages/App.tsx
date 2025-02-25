@@ -64,7 +64,7 @@ export default function App() {
     return () => observer.disconnect();
   }, []);
 
-  const toggleFAQ = (index : number) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
@@ -118,9 +118,11 @@ export default function App() {
                   among others, to recommend matched clinical and social
                   healthcare resources.
                 </p>
-                <button className="mx-auto mt-8 rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500 lg:mx-0">
-                  Join App Waitlist
-                </button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScCBRFdiiEYMTjzchYU-JgI_uVmQnUfB18erHHqL0uPZkRhTw/viewform">
+                  <button className="mx-auto mt-8 rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:scale-100 hover:bg-teal-500 lg:mx-0">
+                    Join App Waitlist
+                  </button>
+                </a>
               </div>
 
               <div className="scroll-animate flex justify-center lg:w-1/2">

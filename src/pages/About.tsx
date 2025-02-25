@@ -53,7 +53,7 @@ export default function About() {
           </h1>
         </div>
 
-        {/* Our Mission - Added subtle styling */}
+        {/* Our Mission */}
         <div className="relative bg-neutral-50 px-4 py-16 text-center md:px-10 md:py-20 lg:px-20 xl:px-52">
           <h2 className="scroll-animate text-4xl font-bold text-neutral-800 md:text-5xl">
             Our Mission
@@ -65,7 +65,7 @@ export default function About() {
           </p>
         </div>
 
-        {/* Our Motivation - Enhanced with visual elements */}
+        {/* Our Motivation */}
         <div className="relative bg-teal-50 px-4 py-16 md:px-10 md:py-20 lg:px-20 xl:px-52">
           <div className="absolute top-0 right-0 opacity-10">
             <svg
@@ -98,7 +98,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Our Story - Enhanced with more visual interest */}
+        {/* Our Story */}
         <div className="relative bg-teal-50 px-4 py-16 md:px-10 md:py-20 lg:px-20 xl:px-52">
           <div className="absolute bottom-20 left-0 opacity-5">
             <svg
@@ -160,15 +160,10 @@ export default function About() {
                 the burden of preventable diseases within these communities.
               </p>
             </div>
-            {/* <div className="hidden md:flex md:w-1/4 items-center justify-center">
-              <div className="w-32 h-32 rounded-full bg-teal-400 flex items-center justify-center shadow-lg">
-                <span className="text-white text-5xl font-bold">2025</span>
-              </div>
-            </div> */}
           </div>
         </div>
 
-        {/* What We Do - Enhanced with visual structure */}
+        {/* What We Do  */}
         <div className="relative bg-neutral-50 px-4 py-16 pb-32 md:px-10 md:py-20 lg:px-20 xl:px-52">
           <div className="absolute top-10 right-0 opacity-5">
             <svg
@@ -227,9 +222,11 @@ export default function About() {
           </div>
 
           <div className="my-16 text-center">
-            <button className="scroll-animate rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:bg-teal-500">
-              Join Our Mission
-            </button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0bucCqNc6knw1kVNq4ef7hmRm1_iuxfw-lRqciI1p87FFbg/viewform?usp=pp_url">
+              <button className="scroll-animate rounded-full bg-teal-400 px-6 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:bg-teal-500">
+                Join Our Mission
+              </button>
+            </a>
           </div>
         </div>
       </div>
