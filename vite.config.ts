@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Website/",
+  base: process.env.NODE_ENV === "production" ? "/Website/" : "/",
   plugins: [react(), tailwindcss()],
 });

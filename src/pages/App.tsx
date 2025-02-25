@@ -64,7 +64,7 @@ export default function App() {
     return () => observer.disconnect();
   }, []);
 
-  const toggleFAQ = (index: number) => {
+  const toggleFAQ = (index : number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
