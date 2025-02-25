@@ -47,8 +47,8 @@ export default function NavBar() {
       {isMobileMenuOpen && (
         <div className="fixed top-16 left-0 flex w-full flex-col items-center space-y-8 bg-neutral-50 py-6 lg:hidden">
           <div className="flex-col items-center space-y-8 bg-neutral-50 py-6 lg:hidden">
-            <NavLink text={"Home"} icon="src/assets/home.png" url="/" />
-            <NavLink text={"About"} icon="src/assets/about.png" url="/about" />
+            <NavLink text={"Home"} icon="/assets/home.png" url="/" />
+            <NavLink text={"About"} icon="/assets/about.png" url="/about" />
             <NavLink
               text={"Contact"}
               icon="/assets/contact.png"

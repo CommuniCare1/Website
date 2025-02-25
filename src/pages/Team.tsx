@@ -193,7 +193,7 @@ const TeamSection = ({
               <p className="text-lg font-semibold tracking-wide text-neutral-800">
                 {member.name}
               </p>
-              <p className="font mt-1 text-sm tracking-wider text-neutral-600">
+              <p className="font mt-1 text-xs tracking-normal text-neutral-600 sm:text-sm sm:tracking-wider">
                 {member.namespace}
               </p>
             </div>
