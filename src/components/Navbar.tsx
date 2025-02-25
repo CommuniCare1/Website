@@ -12,12 +12,15 @@ export default function NavBar() {
   return (
     <div className="fixed top-0 left-0 z-50 m-0 flex h-20 w-full items-center justify-between gap-10 bg-neutral-50 pr-9 pl-6 align-middle">
       {/* Logo Section */}
+
       <div className="justify-self-start">
-        <img
-          src="/assets/Logo-horizontal.png"
-          alt="horizontal communicare logo"
-          className="h-auto w-3xs"
-        />
+        <a href="/">
+          <img
+            src="/assets/Logo-horizontal.png"
+            alt="horizontal communicare logo"
+            className="h-auto w-3xs"
+          />
+        </a>
       </div>
 
       {/* Desktop Navigation */}
