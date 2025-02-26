@@ -2,14 +2,14 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import Home from "./pages/Home.tsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About.tsx";
 import Team from "./pages/Team.tsx";
 import Contact from "./pages/Contact.tsx";
 import App from "./pages/App.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/" : "/"}>
+  <HashRouter>
     <StrictMode>
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -19,5 +19,5 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/app" element={<App />}></Route>
       </Routes>
     </StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
 );
