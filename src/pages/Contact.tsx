@@ -72,7 +72,8 @@ export default function Contact() {
           </p>
 
           <div className="relative z-10 mx-auto mt-12 max-w-3xl">
-            <form className="space-y-6">
+            <form className="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="efe1eb53-bdf3-479a-a814-1a41847fad2b"/>
               {/* Email Button */}
               <a
                 href="mailto:communicare.med@gmail.com"
@@ -99,32 +100,35 @@ export default function Contact() {
               </a>
 
               {/* Input Fields */}
-              <div className="space-y-5">
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="scroll-animate w-full rounded-2xl border border-gray-300 p-4 text-lg placeholder-gray-500 focus:border-teal-400 focus:outline-none"
-                />
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="scroll-animate w-full rounded-2xl border border-gray-300 p-4 text-lg placeholder-gray-500 focus:border-teal-400 focus:outline-none"
-                />
-                <textarea
-                  placeholder="Your Message"
-                  className="scroll-animate h-40 w-full rounded-2xl border border-gray-300 p-4 text-lg placeholder-gray-500 focus:border-teal-400 focus:outline-none"
-                ></textarea>
-              </div>
+                <div className="space-y-5">
+                  <input
+                    type="text"
+                    name = "name"
+                    placeholder="Your Name"
+                    className="scroll-animate w-full rounded-2xl border border-gray-300 p-4 text-lg placeholder-gray-500 focus:border-teal-400 focus:outline-none"
+                  />
+                  <input
+                    type="email"
+                    name = "email"
+                    placeholder="Your Email"
+                    className="scroll-animate w-full rounded-2xl border border-gray-300 p-4 text-lg placeholder-gray-500 focus:border-teal-400 focus:outline-none"
+                  />
+                  <textarea
+                    placeholder="Your Message"
+                    name = "message"
+                    className="scroll-animate h-40 w-full rounded-2xl border border-gray-300 p-4 text-lg placeholder-gray-500 focus:border-teal-400 focus:outline-none"
+                  ></textarea>
+                </div>
 
-              {/* Submit Button - Matching About page button style */}
-              <div className="mt-12 text-center">
-                <button
-                  type="submit"
-                  className="scroll-animate rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:bg-teal-500"
-                >
-                  Send Message
-                </button>
-              </div>
+                {/* Submit Button - Matching About page button style */}
+                <div className="mt-12 text-center">
+                  <button
+                    type="submit"
+                    className="scroll-animate rounded-full bg-teal-400 px-8 py-4 text-xl font-semibold text-white shadow-md transition duration-150 hover:bg-teal-500"
+                  >
+                    Send Message
+                  </button>
+                </div>
             </form>
           </div>
         </div>
