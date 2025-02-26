@@ -7,10 +7,12 @@ import About from "./pages/About.tsx";
 import Team from "./pages/Team.tsx";
 import Contact from "./pages/Contact.tsx";
 import App from "./pages/App.tsx";
+import ScrollToTop from "./components/ScrollToTop.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <HashRouter>
     <StrictMode>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
