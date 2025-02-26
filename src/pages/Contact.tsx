@@ -27,10 +27,7 @@ export default function Contact() {
   return (
     <>
       <NavBar />
-      {/* <div className="mt-20 min-h-screen bg-neutral-50"> */}
-      {/* Hero Banner - Matching About page banner height and style */}
       <div className="mt-20 min-h-screen bg-neutral-50">
-        {/* Hero Banner - Matching About page banner height and style */}
         <div className="relative flex h-80 items-center justify-center overflow-hidden bg-teal-400 text-white">
           <img
             src="/assets/contact-header.png"
@@ -43,7 +40,6 @@ export default function Contact() {
             Contact Us
           </h1>
         </div>
-        {/* </div> */}
 
         {/* Contact Form Section */}
         <div className="relative bg-neutral-50 px-4 py-16 md:px-10 md:py-20 lg:px-20 xl:px-52">
@@ -120,7 +116,7 @@ export default function Contact() {
                   ></textarea>
                 </div>
 
-                {/* Submit Button - Matching About page button style */}
+                {/* Submit Button */}
                 <div className="mt-12 text-center">
                   <button
                     type="submit"

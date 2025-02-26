@@ -73,7 +73,6 @@ export default function App() {
     <>
       <NavBar />
       <div className="mt-20 min-h-screen bg-neutral-50">
-        {/* Hero Banner - Matching Contact page banner style */}
         <div className="relative flex h-80 items-center justify-center overflow-hidden bg-teal-400 text-white">
           <img
             src="/assets/contact-header.png"
