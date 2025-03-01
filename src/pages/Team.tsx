@@ -39,13 +39,13 @@ const teamData: Record<string, TeamMember[]> = {
       title: "Jean",
       imageUrl: "/assets/headshots/Jean.svg",
       name: "Jean Luc",
-      namespace: "LEAD",
+      namespace: "BUSINESS/OUTREACH LEAD",
     },
     {
       title: "Mnumzana",
       imageUrl: "/assets/headshots/Mnumzana.svg",
       name: "Mnumzana Franklin Moyo",
-      namespace: "LEAD",
+      namespace: "TECH LEAD",
     },
     {
       title: "Paul",
