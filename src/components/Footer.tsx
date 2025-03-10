@@ -53,7 +53,7 @@ export default function Footer() {
       {/* Copyright Section */}
       <div className="mt-6 pt-3 text-center text-xs font-normal">
         &copy; 2025 CommuniCare | All Rights Reserved | CommuniCare is a
-        nonprofit organization
+        socially-driven, student-run healthtech startup
       </div>
     </div>
   );
